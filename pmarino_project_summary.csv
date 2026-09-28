@@ -48632,3 +48632,729 @@ bluescarni_mppp;0ccde813c035ff1415a37c07c1c01d3258c2b6bb;Sam Gillingham <gilling
 "
 bluescarni_mppp;0cde1b552ad641160ac4895f7a6c57a5ab26af46;Neil Flood <Neil.Flood@derm.qld.gov.au>;1539740457;"fmask_sentinel2Stacked.py: Added --sagedir option, to package up the business of creating the temporary reflectance stack and the angles image. This works directly from the ESA-supplied .SAFE subdirectory. Currently only handles the compact format, but should be extended to handle the old format as well.
 "
+bluescarni_mppp;00489059106ca30896d323bbd07cb9600f50e890;Neil Flood <neilflood@fastmail.fm>;1643078770;"fillminima.py flake8 errors
+"
+bluescarni_mppp;01ce91861d7887fd9954ba3646ec4ce8d6d7a796;Sam Gillingham <gillingham.sam@gmail.com>;1461733841;"fixed warning on OSX where I was treating an int as a uint in MAXUINT32 compa^Cson. Not sure if serious, but a bit odd
+"
+bluescarni_mppp;01d87f03862865585a61c845591d95037462ce81;Neil Flood <neilflood@fastmail.fm>;1725316082;"Add explicit instructions for setting the conda-forge channel  (#85)
+
+* Add explicit instructions for setting the conda-forge channel (see Issue 84)
+
+* Add note about availability through Spack (have been meaning to do that for ages)"
+bluescarni_mppp;01edcf55b82564c9a9aaf43e514c93e0f9baa654;Neil Flood <Neil.Flood@derm.qld.gov.au>;1464912459;"Added framework to set up a filter on small clouds. Currently does nothing, but work in progress. In separate branch.
+"
+bluescarni_mppp;039a848a80a1049c11656a6e3fd30154c6e27b10;Sam Gillingham <gillingham.sam@gmail.com>;1662357199;"update Neil's email and add MANIFEST.in (#62)
+
+"
+bluescarni_mppp;03add4ade66bedaae9ba7688a2ef0f63d19e1d57;Neil Flood <Neil.Flood@derm.qld.gov.au>;1465180094;"Correct name at top of landsatangles doc page
+"
+bluescarni_mppp;03b1bcb89d65ec89ceb0d640c2602239279ee833;Neil Flood <Neil.Flood@derm.qld.gov.au>;1465011506;"fmask_usgsLandsatStacked.py: Added --cloudbufferdistance and --shadowbufferdistance commandline options
+"
+bluescarni_mppp;04b101916217d525cb12808c98adf79dcaca5293;Neil Flood <Neil.Flood@derm.qld.gov.au>;1539729349;"config.py: Default sen2displacementTest = False
+"
+bluescarni_mppp;0570c135cfba3891101dfb3519dca1ed2953e4f1;Neil Flood <Neil.Flood@derm.qld.gov.au>;1464830426;"Trailing underscore in front page, to get Sphinx to make a link. Guessing, and hoping.
+"
+bluescarni_mppp;063f24cd109883f2b168091f82b0317c8518bc33;Sam Gillingham <gillingham.sam@gmail.com>;1598935210;"Update release notes
+"
+bluescarni_mppp;06b44b99fb731f1fb4ea9d6d9ad6ae09381ad825;Sam Gillingham <gillingham.sam@gmail.com>;1450055428;"fixed typo that broke Landsat processing
+"
+bluescarni_mppp;080bc5c4e94d53fc704d3b7598e46caea65f5122;Neil Flood <Neil.Flood@derm.qld.gov.au>;1543193379;"Closed sentinel2-parallax branch
+"
+bluescarni_mppp;08c41c46d26131506b86a2172404c22885a9328b;Sam Gillingham <gillingham.sam@gmail.com>;1710125868;"Merge branch 'master' into entrypoints98237763765652623894945
+"
+bluescarni_mppp;090352d934c50ce104050ea8025a43cfd22a742d;Neil Flood <Neil.Flood@derm.qld.gov.au>;1472646126;"Updated release notes for 0.4.1 release.
+"
+bluescarni_mppp;093457897b62acd0fa9d14bc167936dd549b7b9d;Neil Flood <Neil.Flood@derm.qld.gov.au>;1464827438;"Modified default Sentinel-2 bands, and default instructions for Sentinel-2, so that they correspond, and pick up the right bands. Default instructions now work at 20m, and stack all bands together, on the assumption that this is a thing people might want to do anyway. Thanks to James Shepherd for pointing out the inconsistencies.
+"
+bluescarni_mppp;0a44b75abfcf37f50db30baa470c631c332f1df0;Neil Flood <Neil.Flood@derm.qld.gov.au>;1539811287;"Added tag pythonfmask-0.5.0 for changeset 2bad8c88c473
+"
+bluescarni_mppp;0ab259de007a3d03eaa4bf2129d8082e7c94c6c4;Pete Bunting <petebunting@mac.com>;1468312882;"Fixed bug with landsat thermal K2 value, incorrectly defaulting to K1.
+"
+bluescarni_mppp;0c1c6e83290eb726befd8ab2ec99631376e68afb;Neil Flood <Neil.Flood@derm.qld.gov.au>;1565058528;"releasenotes.rst: Added notes for version 0.5.4
+"
+bluescarni_mppp;0ccde813c035ff1415a37c07c1c01d3258c2b6bb;Sam Gillingham <gillingham.sam@gmail.com>;1568863314;"update conda install instructions
+"
+bluescarni_mppp;0cde1b552ad641160ac4895f7a6c57a5ab26af46;Neil Flood <Neil.Flood@derm.qld.gov.au>;1539740457;"fmask_sentinel2Stacked.py: Added --sagedir option, to package up the business of creating the temporary reflectance stack and the angles image. This works directly from the ESA-supplied .SAFE subdirectory. Currently only handles the compact format, but should be extended to handle the old format as well.
+"
+bluescarni_mppp;0e4f977bd762c19b0db7e59b34af860efd1e4b5b;Neil Flood <Neil.Flood@derm.qld.gov.au>;1491264211;"fmask_usgsLandsatStacked.py: Add commandline options for setting the snow reflectance thresholds. Correct name of Eqn17CloudProbThresh in default setting.
+"
+bluescarni_mppp;0e6e8a9df04be2b35ffb7a4d84499935222c9014;Sam Gillingham <gillingham.sam@gmail.com>;1540863461;"ensure that results from glob.glob() are sorted() to match how the shell works
+"
+bluescarni_mppp;0f0030939b2a5f012e87c17d7fac5d9011bddc16;Neil Flood <Neil.Flood@derm.qld.gov.au>;1464951290;"fmask_usgsLandsatSaturationMask.py: Convert optparse to argparse
+"
+bluescarni_mppp;0f2862efb8fdd98589679a3d53c40b40d18b5b5f;Sam Gillingham <gillingham.sam@gmail.com>;1449799672;"Automated merge with https://bitbucket.org/chchrsc/python-fmask
+"
+bluescarni_mppp;0fb386b9653f008e0b1639605a660e7329bacecd;Neil Flood <Neil.Flood@derm.qld.gov.au>;1539811266;"Updated release notes for 0.5.0
+"
+bluescarni_mppp;0fe93ecdb111a1569e4a990c281a044c63f55982;Neil Flood <Neil.Flood@derm.qld.gov.au>;1464951590;"fmask_sentinel2Stacked.py: Return the cmdargs object (oops)
+"
+bluescarni_mppp;1195e23b665db38c794cdaa802b55243795e08ff;Sam Gillingham <gillingham.sam@gmail.com>;1450079143;"Allow temp directory to be passed in from command line scripts
+"
+bluescarni_mppp;1291c0d3a915aa1eb168c3d2fd0c34504201542a;Neil Flood <neilflood@fastmail.fm>;1719887991;"Comments in pyproject.toml about dependencies, etc.
+"
+bluescarni_mppp;12dae0f3d831b22f9382237f1ff6baf7b50312bc;Justus Spitzmüller <74727117+sptzmllr@users.noreply.github.com>;1742963867;"Fix neighbour lookup to use correct 4-connectivity in fillminima (#88)
+
+The previous implementation incorrectly added only diagonal neighbours
+to the queue, ignoring directly adjacent pixels (up, down, left, right).
+This could lead to checkerboard-like artifacts. The fix replaces the
+nested loop with a simple 4-directional lookup using static offset
+arrays."
+bluescarni_mppp;133d25d3bf7a1661a65d604844a0449470b80f31;Neil Flood <neilflood@fastmail.fm>;1660088870;"Less indent, to keep flake8 happy
+"
+bluescarni_mppp;1399709b5f41989f516195a4b78e4d9d266371c8;Neil Flood <neilflood@fastmail.fm>;1643080635;"config.py flake8 errors
+"
+bluescarni_mppp;13d10114c29bdd3ba664a0568b58be25a7938b1b;Sam Gillingham <gillingham.sam@gmail.com>;1663116513;"Remove subprocess calls and use GDAL utility functions (#64)
+
+* don't call executables directly
+
+* remove unused import
+
+* remove file before calling gdal_merge
+
+* keep flake8 happy
+
+* config.py,landsatTOA.py,sentinel2makeAnglesImage.py: Remove apparently unnecessary calls to UseExceptions
+
+* fmask.py: Remove blanket call to UseExceptions, and explicitly guard call to rat.WriteColumn with exceptions 'on'
+
+* usgsLandsatStacked.py,sentinel2Stacked.py: Explicitly guard calls to gdal_merge.main() to have exceptions 'off', because it does not cope at all well if they are 'on'
+
+* fmask.py: Put the exception reset into the finally clause, so it always happens
+
+Co-authored-by: Neil Flood <neilflood@fastmail.fm>"
+bluescarni_mppp;14358132da5f04b663a72e7976c1a338b3ed63ca;Neil Flood <Neil.Flood@derm.qld.gov.au>;1458448760;"Added --anglesfile option, so that we always use per-pixel angles, as the constant angles option has now been disabled.
+"
+bluescarni_mppp;152aeaceea4e51f8864a2910e93cb8f522e5ca6c;Sai Ma <Sai.Ma@ga.gov.au>;1648009298;"Pass topLevelXML path by TOA file
+"
+bluescarni_mppp;1581f4fa0b1a7d4a68deb7488b2a7584a6590769;Neil Flood <neilflood@fastmail.fm>;1725314693;"Add explicit instructions for setting the conda-forge channel (see Issue 84)
+"
+bluescarni_mppp;1599f617dc3b120ae123ae9ce44de8982f772f61;Neil Flood <Neil.Flood@derm.qld.gov.au>;1458450779;"Correct the author email address
+"
+bluescarni_mppp;15d61544224d27c5dd08c79e78f3bfac87eef8f2;Neil Flood <neilflood@fastmail.fm>;1644540299;"Update to version 0.5.7
+"
+bluescarni_mppp;15ed718c8e04a70b08fb2dc8f374096b1d1e867a;Sam Gillingham <gillingham.sam@gmail.com>;1544571171;"ensure file descriptor closed and remove associated Windows workaround
+"
+bluescarni_mppp;16ea284c387c08d80f8e0c9cbc6ed394f6d3ed19;floriandeboissieu <fdeboiss@gmail.com>;1593761329;"fix previous python script patch 
+
+forgot to transmit argv to parse_args..."
+bluescarni_mppp;17d936dd45532bef04034834056030e93c7252ae;Sam Gillingham <gillingham.sam@gmail.com>;1450058978;"use correct indexing for saturation mask - not the same as the TOA input
+"
+bluescarni_mppp;1888897e579bd1a569d5831675330d7d31cd7958;Neil Flood <neilflood@fastmail.fm>;1643078212;"usgsLandsatTOA.py flake8 errors
+"
+bluescarni_mppp;18957fced2a8a12a82dbe7504561371fc6b04c2c;Neil Flood <neilflood@fastmail.fm>;1725315497;"Add note about availability through Spack (have been meaning to do that for ages)
+"
+bluescarni_mppp;18f3501c16a684537c0d0e39452bba42334fa066;Sam Gillingham <gillingham.sam@gmail.com>;1450394836;"Sentinel level 1 -> Level 1C in doco
+"
+bluescarni_mppp;1adfb05de2f422a868aa0482913591480807494f;Neil Flood <neilflood@fastmail.fm>;1687147925;"Add full madness of explicit versions, and explicit conf.py, and explicit path for import. Not sure how much of this I need, but my initial minimall attempt was not enough, so....
+"
+bluescarni_mppp;1b4aed8901a497f49bfd563cdc9bb80ba15a01ab;Stefan Józefowicz <stefan.jozefowicz@gmail.com>;1638817166;"Ignore INSPIRE.xml when searching for metadata file
+"
+bluescarni_mppp;1bc6086e4918860b2821570ca2388996d2a04784;Neil Flood <Neil.Flood@derm.qld.gov.au>;1465001254;"fmask_sentinel2Stacked.py: Added --mincloudsize option. Also corrected a (mostly) harmless typo in testing resolution match
+"
+bluescarni_mppp;1c87537ba3e8cb8806f77b4a507f64b5609fa404;Neil Flood <Neil.Flood@derm.qld.gov.au>;1464901529;"More adaptable list of bandNames in viewangles dictionary. I suspect this relates to anomaly number 11 in ESA's processing software, where some bands were sometimes missing from the view angle lists in the granule metadata (see //sentinel.esa.int/web/sentinel/news/-/article/new-processing-baseline-for-sentinel-2-products). Many thanks to Ben deVries for noting this problem.
+"
+bluescarni_mppp;1cdecf222fcea88c51d6bc0a9ce3e0a0125bc67a;Neil Flood <Neil.Flood@derm.qld.gov.au>;1543195774;"Update release notes for 0.5.1
+"
+bluescarni_mppp;1d4ae8195da5ad27a3a5b6f5b3efc97bdf1f0e1c;Ben Lewis <benjimin@users.noreply.github.com>;1587522651;"Clarify precedence (cloud > shadow > snow > water)
+
+Expressing this as unconvolutedly as possible. (Should also perform slightly faster, and use slightly less memory.)"
+bluescarni_mppp;1df0b729556eb8bdbad8d7ecdf189b62c2cf48d4;Sam Gillingham <gillingham.sam@gmail.com>;1543271850;"updated license GPL2 -> 3 on .c files also
+"
+bluescarni_mppp;1e02e8604e4b6441bb9381aec7abe879b2fba35f;Neil Flood <Neil.Flood@derm.qld.gov.au>;1491267885;"Added tag pythonfmask-0.4.4 for changeset 9f9b104b1e94
+"
+bluescarni_mppp;1e7ac40d6571974902c12a5213df9289b96e5909;Neil Flood <Neil.Flood@derm.qld.gov.au>;1455769201;"In per-pixel angles case, pass the filename and band number, not the filename twice.
+"
+bluescarni_mppp;1fd010d9a269a5d4cfe2f1faacdb8dc74f014f27;Neil Flood <neilflood@fastmail.fm>;1643077825;"Add Github workflow to run flake8
+"
+bluescarni_mppp;2015f8ec8543d0834419125f48ae21b3ac4feb6c;Neil Flood <neilflood@fastmail.fm>;1719891584;"Fix the comments about requirements, to mention rios+GDAL, rather than just GDAL (#83)
+
+"
+bluescarni_mppp;2081c1cd908cbf211d0230ee0108861516db6c70;Sam Gillingham <gillingham.sam@gmail.com>;1489044458;"make sure the exit code of commands run through fmask_expandWildcards is preserved
+"
+bluescarni_mppp;208ae36283db22ec5097f4a5502bb5ba7cb6ff1e;Neil Flood <neilflood@fastmail.fm>;1643079047;"zerocheck.py flake8 errors
+"
+bluescarni_mppp;210187e0ed670314b04034a957a8e334497ee09c;Neil Flood <neilflood@fastmail.fm>;1660120798;"Use setuptools and pip for packaging and installation (#60)
+
+* Use setuptools and piip for packaging and installation
+
+* Less indent, to keep flake8 happy"
+bluescarni_mppp;21d9d765e92005feddd501bad4311cc2e3a57d53;Neil Flood <Neil.Flood@derm.qld.gov.au>;1547519354;"Update version to 0.5.3
+"
+bluescarni_mppp;2280fc36f0f538b4644cc839252a9e84406a5cb7;Neil Flood <Neil.Flood@derm.qld.gov.au>;1462362758;"Last-resort trap to ensure that ndx is never zero, as this causes segfaults, etc.
+"
+bluescarni_mppp;248f8e8df3b9a731c0b9ea774ff9fc50fa2eb915;Neil Flood <Neil.Flood@derm.qld.gov.au>;1488932785;"Automated merge with https://bitbucket.org/chchrsc/python-fmask
+"
+bluescarni_mppp;255181229fc9a6b659e0ed84cd632512b5424850;Neil Flood <neilflood@fastmail.fm>;1687148341;"noqa for fmask import line
+"
+bluescarni_mppp;257216bce37339bd040c48ab9d87a286b56aa440;Sam Gillingham <gillingham.sam@gmail.com>;1442974360;"got C extensions (fillminima and valuindexes) to compile
+"
+bluescarni_mppp;25a64cc0ab63fe753608780e8162a089efd522a8;Sam Gillingham <gillingham.sam@gmail.com>;1543272064;"add notes about checking out a clean copy of the repo before packaging (from RIOS)
+"
+bluescarni_mppp;25fd4480e48fdf66cec44537a8cde3ce3a25717e;Sam Gillingham <gillingham.sam@gmail.com>;1544585032;"update version to 0.5.2
+"
+bluescarni_mppp;26e0c782aa6a33107f7f2e48c06bfc84db1257da;Neil Flood <Neil.Flood@derm.qld.gov.au>;1499062078;"fmask.py: Added focalVariance() function, in prep for CDI coding.
+"
+bluescarni_mppp;274818b7bb6903f43e613cece19e51d607e7d49f;Sam Gillingham <gillingham.sam@gmail.com>;1480029632;"ensure boundaryRows and boundaryCols are int64 before passing to C code
+"
+bluescarni_mppp;284a2b963e66e8422cf8e8121f72c8c146e3898b;Sam Gillingham <gillingham.sam@gmail.com>;1450083891;"added sphinx doc
+"
+bluescarni_mppp;2a04cadcd479b778f767a8dd5eb2a678233bd9c8;Sam Gillingham <gillingham.sam@gmail.com>;1540863582;"update landsat8 wildcard in doco since USGS filenames seemed to have changed recently
+"
+bluescarni_mppp;2a067db459614f8b1c46768c4646d9b39e41473c;Neil Flood <Neil.Flood@derm.qld.gov.au>;1499063528;"fmask.py,config.py Removed more things which were not supposed to be pushed yet.
+"
+bluescarni_mppp;2a700cd0f230db115ec3e9c64d57daa5855fcc4f;Neil Flood <neilflood@fastmail.fm>;1582880308;"Added FmaskInstallationError exception
+"
+bluescarni_mppp;2c9e7f270bb113cd96b53defa4a35454eccf524e;Neil Flood <Neil.Flood@derm.qld.gov.au>;1539810048;"fmask_sentinel2Stacked.py: Correctly delete the temporary angles file
+"
+bluescarni_mppp;2d2b1d142e9f4e0cb856ffd71fe5b8c5ac1806eb;Neil Flood <neilflood@fastmail.fm>;1634591683;"Update version to 0.5.6
+"
+bluescarni_mppp;2d4bc471354cb881ff006222baaa14e75510f08c;Neil Flood <Neil.Flood@derm.qld.gov.au>;1465182286;"landsatangles.py: More detail in module docstring, copied over from my original main program
+"
+bluescarni_mppp;2d6f80c28e1b25bba002bdb20bcb83fbb68086ce;Neil Flood <Neil.Flood@derm.qld.gov.au>;1465554590;"releasenotes.rst: Wrap commandline option specs in :command:
+"
+bluescarni_mppp;2d7f49cfca7eabc4a843614bc593ad31b7734cef;Neil Flood <neilflood@fastmail.fm>;1662937702;"Use gdal.Driver.Delete to cleanly remove intermediate rasters (#63)
+
+"
+bluescarni_mppp;2db48b6d1b5ec4eb4755c596ac41a17114aced02;Neil Flood <Neil.Flood@derm.qld.gov.au>;1491189368;"fmask.py,config.py: Make the constant term in Equation 17 a configurable parameter, following the MATLAB code from Zhu et al
+"
+bluescarni_mppp;2dc1cc1622ef780a412aba57da589ba94d409d93;Neil Flood <neilflood@fastmail.fm>;1671675189;"Fixed another typo in release notes
+"
+bluescarni_mppp;2f748169c4b1a87f25299d693d742cb738adbe4e;Neil Flood <Neil.Flood@derm.qld.gov.au>;1544235365;"Do not use subprocess to run fmask_usgsLandsatTOA.py, fmask_usgsLandsatMakeAnglesImage.py and fmask_usgsLandsatSaturationMask.py, but call directly to the internal functions instead. This works better on Windows/Conda.
+"
+bluescarni_mppp;2fbbcb462cc8b81c96ff7ab78c6204ccab6458b8;Sam Gillingham <gillingham.sam@gmail.com>;1469417605;"Check that we aren't in ReadTheDocs before impoting C modules, rather than just ignoring failure
+"
+bluescarni_mppp;3071ca21622023ae17e95c05336b0ac0ed7676ab;Neil Flood <Neil.Flood@des.qld.gov.au>;1575002400;"sen2meta.py: Cope with non-compatible API change in GDAL 3, in which long/lat can be swapped.
+"
+bluescarni_mppp;30b21377f3a43382eb566d52811050eb3087ee21;Sam Gillingham <gillingham.sam@gmail.com>;1469417721;"don't use deprecated numpy API in C modules
+"
+bluescarni_mppp;31b7f62cab12081c4e662edff25f7085c953eed4;Neil Flood <Neil.Flood@derm.qld.gov.au>;1465186922;"fmask_usgsLandsatMakeAnglesImage.py,landsatangles.py: Removed references to cmdargs from landsatangles.makeAnglesImage(), so that the functions in the module are independent of the commandline wrapper around them. The function now takes the individual filenames, not the cmdargs object.
+"
+bluescarni_mppp;31c443337579ea082d58ed6389c55d32fd46dc06;Sam Gillingham <gillingham.sam@gmail.com>;1458524973;"print usange message when not all arguments are provided
+"
+bluescarni_mppp;32a7483c99af99982cb2e9e578339ee7eb63cde3;floriandeboissieu <fdeboiss@gmail.com>;1594282891;fix docstring in sentinel2Stacked
+bluescarni_mppp;33202f1cb192bc8fc8c98e021aaa0c5862495175;Neil Flood <neilflood@fastmail.fm>;1643077741;"Added .flake8
+"
+bluescarni_mppp;3364e2183fe532cfb45a725f8f21c7b1ccad67ba;Neil Flood <Neil.Flood@derm.qld.gov.au>;1458557641;"Set version number to 0.3.0
+"
+bluescarni_mppp;343ac593fb6ec81b3fb0213bb7de71042b829c98;Neil Flood <neilflood@fastmail.fm>;1643078973;"sen2meta.py flake8 errors
+"
+bluescarni_mppp;354b4c77c2e3c679f9fa47806169645da4f7dc39;Justus Spitzmueller <j.spitzmueller@posteo.de>;1742850910;"Fix neighbour lookup to use correct 4-connectivity in fillminima
+
+The previous implementation incorrectly added only diagonal neighbours
+to the queue, ignoring directly adjacent pixels (up, down, left, right).
+This could lead to checkerboard-like artifacts. The fix replaces the
+nested loop with a simple 4-directional lookup using static offset
+arrays.
+"
+bluescarni_mppp;3678a45df1253588563fbda975fc633af0614e8b;Neil Flood <Neil.Flood@derm.qld.gov.au>;1499061948;"config.py: Fixed the wavelength docstrings so that they are in nanometres, instead of some random unit which was labelled as um, but was not. Also changed to use Sphinx's #: docstring notation, although I am not yet convinced that this is any better.
+"
+bluescarni_mppp;367c974fb89ec233dc70b5a5ef5d0f5545dcd393;Neil Flood <Neil.Flood@derm.qld.gov.au>;1458448484;"Disabled the option to assume constant anges across a Landsat scene, as this produces unacceptable errors in tracking shadows. Must always use per-pixel angles, as originally intended. This appears to match the CFmask code by the original Fmask authors.
+"
+bluescarni_mppp;3744c9b776c34b3c9b3b700e3e4a725636bc7c34;Sam Gillingham <gillingham.sam@gmail.com>;1544585142;"Added tag pythonfmask-0.5.2 for changeset 93d3beeb1101
+"
+bluescarni_mppp;387522d1cf671644073694fbfe6db15f81e1ddf3;Sam Gillingham <gillingham.sam@gmail.com>;1449807207;"fixed incorrect variable use in the saturation mask creation
+"
+bluescarni_mppp;398639cba1ae7110079c3bae68f2491f79674171;Sam Gillingham <gillingham.sam@gmail.com>;1499829841;"Added tag pythonfmask-0.4.5 for changeset 95f3bc60d732
+"
+bluescarni_mppp;3b1b47a1c677307f255a4dfcb73a9355cf1d2cc7;Neil Flood <Neil.Flood@derm.qld.gov.au>;1464901577;"Automated merge with https://bitbucket.org/chchrsc/python-fmask
+"
+bluescarni_mppp;3c2e999c25716ecb04effa7c5c2a4ac997cfbe3a;Sam Gillingham <gillingham.sam@gmail.com>;1663038201;"don't call executables directly
+"
+bluescarni_mppp;3d70bc24a3ad0797dd38f7227143ac8112cc1262;Sam Gillingham <gillingham.sam@gmail.com>;1458526250;"fixed missingthermal typo
+"
+bluescarni_mppp;3fb47468a0a131aef382ba78366f8ef52a34be15;Neil Flood <neilflood@fastmail.fm>;1582880361;"Added traps for missing gdal_merge.py and gdalwarp commands
+"
+bluescarni_mppp;3feb795ad703b35bb5bc9d586d3964bb9d364e6d;Neil Flood <Neil.Flood@derm.qld.gov.au>;1465014153;"Gave up, and re-worded without '--'. Sigh......
+"
+bluescarni_mppp;40f5e64e6c19e27884d4a18446474a5307f9ef1a;Neil Flood <Neil.Flood@derm.qld.gov.au>;1464997534;"Close filtersmallclouds branch, prior to merging with default
+"
+bluescarni_mppp;41933a93b430205905d237a1e81d1404af50eb6b;Xavier Corredor Llano <xcorredorl@ideam.gov.co>;1524630000;"Added cloud masking qgis plugin as an application that use python-fmask in docs
+"
+bluescarni_mppp;4258a5a20b9df7ce777316d9b1c23889b92ad91b;Neil Flood <Neil.Flood@derm.qld.gov.au>;1564384100;"fmask.py: Remove the 'darkness' test suggested by Franz, 2015, because, after extensive testing on a large dataset, it appears to remove more true positives than false positives.
+"
+bluescarni_mppp;440c746a4510472ae97aff3456c0967360a2493e;Neil Flood <Neil.Flood@derm.qld.gov.au>;1464950898;"fmask_usgsLandsatTOA.py: Converted optparse to argparse
+"
+bluescarni_mppp;442abf10dad4d2b79c9fab29e0cd5fa201f0ba27;Neil Flood <Neil.Flood@des.qld.gov.au>;1644539764;"Minor changes to support Landsat-9
+"
+bluescarni_mppp;44ccb73a26d321a715deddebce9081dbd98e727b;Neil Flood <Neil.Flood@derm.qld.gov.au>;1543194361;"Updated GPL license version to GPL v3, in all .py files, and in LICENSE.txt
+"
+bluescarni_mppp;456ccb5c6f180fa5ec5799371ac69697713fa574;Neil Flood <neilflood@fastmail.fm>;1696809381;"Use autodoc_mock_imports
+"
+bluescarni_mppp;47665d51b3d6ffcb96a4ef515afa593910096350;Neil Flood <Neil.Flood@derm.qld.gov.au>;1465073005;"Added fmask_landsatangles.rst for Sphinx doc of landsatangles.py
+"
+bluescarni_mppp;47cf860414e2f2dc6ad6848a83e1b49d20bc41f2;Sam Gillingham <gillingham.sam@gmail.com>;1663054976;"keep flake8 happy
+"
+bluescarni_mppp;48744dd1b69bde309142e362b59f1afb072809fe;Neil Flood <Neil.Flood@derm.qld.gov.au>;1458557459;"Expanded Sentinel-2 example recipe to use the per-pixel angles image, as this is now required.
+"
+bluescarni_mppp;48a259e31330dd3a2d6d088e26b558a8d5322da4;Sam Gillingham <gillingham.sam@gmail.com>;1542257872;"change temp file format to follow RIOS. Use subprocess rather than os.system
+"
+bluescarni_mppp;490692aa2194596267dcd4045e88c42c93787f3d;Neil Flood <Neil.Flood@derm.qld.gov.au>;1493933728;"config.py: Special case for oldest format MTL for Landsat-7
+"
+bluescarni_mppp;493f5bcb8c197050bb817b3f3b0ea4662478ed1a;Sam Gillingham <gillingham.sam@gmail.com>;1573620505;"Update to github
+"
+bluescarni_mppp;496dbf3ec0d2185bb8c50063a78738e01257371d;Neil Flood <Neil.Flood@derm.qld.gov.au>;1488932602;"Added INSTALL.txt
+"
+bluescarni_mppp;49f5ac397c1c0092d757a68cfeeabc8673b549cb;Sam Gillingham <gillingham.sam@gmail.com>;1539822557;"add LICENSE.txt to tarball when creating dist, for next time
+"
+bluescarni_mppp;4aae289143be9d4af8d13f1a97e38f940018d807;Neil Flood <Neil.Flood@derm.qld.gov.au>;1488932776;"index.rst: Slightly expanded notes about installation, mentioning the new INSTALL.txt file.
+"
+bluescarni_mppp;4b6c5c20e44477610d0b4e047df17f80e5c69f1c;Neil Flood <neilflood@fastmail.fm>;1687147318;"First attempt at what is needed for RTD config (#69)
+
+"
+bluescarni_mppp;4c4b69d3deded6f4241d8dac36934eb5d1255a1d;Neil Flood <neilflood@fastmail.fm>;1671657753;"Create release 0.5.8
+"
+bluescarni_mppp;4e0168640074e3753faf459dcd7402ec71bfaf5c;Neil Flood <Neil.Flood@derm.qld.gov.au>;1543195829;"Update version number to 0.5.1
+"
+bluescarni_mppp;4e81f8a026f340d33d809e22773b48bd3f657d7d;Neil Flood <neilflood@fastmail.fm>;1671674543;"Fixed typo in release notes
+"
+bluescarni_mppp;4f08f59cf3f1dab2ba889075f022de28204dc4e7;Neil Flood <Neil.Flood@derm.qld.gov.au>;1539729227;"fmask.py: Prevent division by zero when calculating S-2 Cloud Displacement Index for Frantz parallax extension
+"
+bluescarni_mppp;4f9ef114fae2871403d4165df4f39d38e10d1873;Sam Gillingham <gillingham.sam@gmail.com>;1449704240;"added support for creation and use of saturation mask
+"
+bluescarni_mppp;50674ffba4104ea4f2a26f1e943cea8189ab9e0e;Vincent Schut (schut <Vincent Schut (schut@satelligence.com)>;1538489222;"fix index.rst whitespace
+"
+bluescarni_mppp;516164f369b46d37147d392d0f185bd997ae7d4e;Sam Gillingham <gillingham.sam@gmail.com>;1582500663;"Add strict channel priority to the docs
+"
+bluescarni_mppp;5395199aec90923d53d442891bf9be778de15649;Neil Flood <neilflood@fastmail.fm>;1634590986;"Merge pull request #48 from neilflood/esa-offsets
+
+ESA radiometric offsets"
+bluescarni_mppp;540af98042b523248dee28e997c1ba6eef6c2e56;Sam Gillingham <gillingham.sam@gmail.com>;1449806899;"test for no data values not being set. This is usually the case for USGS sourced data
+"
+bluescarni_mppp;54aa6e81beae1eb06dbb2c0b3bb0a7d49b8b71d3;Sam Gillingham <gillingham.sam@gmail.com>;1480115587;"update to version number 0.4.3
+"
+bluescarni_mppp;554e5485b75302071b81f1f24c0b941c764e0617;Neil Flood <Neil.Flood@derm.qld.gov.au>;1458451120;"correct spelling of otherinputs
+"
+bluescarni_mppp;559fd97f30fe09834c20b662cb5b7553c4330316;Sam Gillingham <gillingham.sam@gmail.com>;1488872098;"always gdal.UseExceptions() everywhere to reduce user confusion...
+"
+bluescarni_mppp;5611121c0f648ea74a5e488fb98d5adda2bc4984;Sam Gillingham <gillingham.sam@gmail.com>;1450743065;"include an example for Landsat8 on the web page because it's a bit different
+"
+bluescarni_mppp;564e9f1690dd528b0d9ac16a7924dddd33c56fc0;Neil Flood <Neil.Flood@derm.qld.gov.au>;1449819009;"The saturation mask now has 3 bands, for red, grren and blue bands. These are used separately in the tests around equation 15.
+"
+bluescarni_mppp;571f9c6c8c450fdcb7ad1d63375cd4c9f235a000;Neil Flood <Neil.Flood@derm.qld.gov.au>;1465551630;"Added CreateDistribution.txt, sotexplicitly describe the steps for creating a distribution.
+"
+bluescarni_mppp;573e08678b9ae6cb05018e7bb57d873d8053b75b;Neil Flood <Neil.Flood@derm.qld.gov.au>;1539730119;"fmask_sentinel2Stacked.py: Add --parallaxtest swicth, to turn on Frantz (2018) test
+"
+bluescarni_mppp;57aeea3f248dffe37f767b0908a3e72b56b7b736;Neil Flood <neilflood@fastmail.fm>;1719885761;"A bit more tidying
+"
+bluescarni_mppp;57db342e094536ec71f517c49e546014935ccad2;Neil Flood <neilflood@fastmail.fm>;1718700831;"Explicitly cast indices to int, to cope with numpy-2 changes to scalar handling
+"
+bluescarni_mppp;581c9183714d2d5531e4511f8a95082186da180c;Neil Flood <Neil.Flood@derm.qld.gov.au>;1462362684;"A better null mask derived from all bands, instead of just the blue band. We need all bands to be non-null in order to do anything useful.
+"
+bluescarni_mppp;58a8ea2113dea274d2700b97a54c41ce44a993da;Neil Flood <Neil.Flood@derm.qld.gov.au>;1565072931;"conf.py: Remove sphinx.ext.pngmath, as readthedocs no longer needs or allows it.
+"
+bluescarni_mppp;58ec85f53ba3f4da0c419dd12d809b2cafe32358;Neil Flood <Neil.Flood@derm.qld.gov.au>;1499062085;"Automated merge with https://bitbucket.org/chchrsc/python-fmask
+"
+bluescarni_mppp;5a3e78548c49f76818c55bf9e478e29ebd8edc78;Sam Gillingham <gillingham.sam@gmail.com>;1638839412;"use setuptools with readthedocs as distutils is now deprecated
+"
+bluescarni_mppp;5a7ed1851c48fe9fce1b55629e76a14afe039c20;Sam Gillingham <gillingham.sam@gmail.com>;1450393914;"made main documentation page clearer
+"
+bluescarni_mppp;5a83fbd584d49a815818b2441ee42c2ddc675e9c;Neil Flood <neilflood@fastmail.fm>;1643079695;"Also ignore W605
+"
+bluescarni_mppp;5a97e57c9fcf1cc25614bd0bf38897865bd46f7f;Sam Gillingham <gillingham.sam@gmail.com>;1461725106;"update main doco page to talk about Conda packages which are now available for all platforms
+"
+bluescarni_mppp;5ab26f43e95819b4c02b903080f2739a12429991;Neil Flood <Neil.Flood@derm.qld.gov.au>;1491189531;"fmask_usgsLandsatStacked.py,fmask_sentinel2Stacked.py: Re-organise command line arguments so that parameters which affect the running of the algorithm are grouped together. Added --cloudprobthreshold option, to match recommendations by Zhu et al for their MATLAB code, in order to help with commission errors in low-sun-angle situations.
+"
+bluescarni_mppp;5b4bb3856df8dc41eda2a77e8d6a05ec010cf2af;Neil Flood <Neil.Flood@derm.qld.gov.au>;1547519368;"Added tag pythonfmask-0.5.3 for changeset 3efad0a67437
+"
+bluescarni_mppp;5b86ea87cea1d99238a28c4fa2626732d7dd2b37;Neil Flood <neilflood@fastmail.fm>;1462078483;"Better comments about ReadTheDocs madness.
+"
+bluescarni_mppp;5c68f8f4b99df47484d35f591bc0b53f02f21e25;Neil Flood <Neil.Flood@derm.qld.gov.au>;1458469115;"Added printing of thresholds when verbose, to aid in debugging. Correctly use the missingThermal flag, as this has taken note of both thermal file not supplied, and also thermal file supplied but empty, as is the case for Landsat-8 with dodgy thermal bands. Previously was not coping properly when thermal file was supplied but empty.
+"
+bluescarni_mppp;5ce3f9dfb9d7d2adc16eaac67addf032d8f1e13d;Neil Flood <Neil.Flood@derm.qld.gov.au>;1465012903;"Trying to find the Sphinx escape sequence for --
+"
+bluescarni_mppp;5e756dbbb452660ee0d1216246449a89d8d32bc1;Neil Flood <neilflood@fastmail.fm>;1643080686;"fmaskerrors.py flake8 errors
+"
+bluescarni_mppp;5f013dae3a596611e59c64a255364bed2f980505;Neil Flood <neilflood@fastmail.fm>;1662935948;"Use gdal.Driver.Delete to cleanly remove intermediate rasters
+"
+bluescarni_mppp;606929ff1fa13d258aa95d777d56ee044f3a82ae;Sam Gillingham <gillingham.sam@gmail.com>;1480115863;"Added tag pythonfmask-0.4.3 for changeset 10ce42f432e1
+"
+bluescarni_mppp;606e16aaa150a78a00643b16523f70f51b22ebed;Neil Flood <Neil.Flood@derm.qld.gov.au>;1488932002;"index.rst: Make the Sentinel-2 example wild cards less restrictive, so that the example commands given will actually work with ESA's new file naming conventions, as well as the old. Added a note to explain this.
+"
+bluescarni_mppp;606fdf328f2ce1a7baf8808d3b41c460ef2ebc9f;Neil Flood <Neil.Flood@derm.qld.gov.au>;1472646475;"__init__.py: Updated version number to 0.4.2 - all out of sequence because i got flustered.
+"
+bluescarni_mppp;60caca75cbb5e67bda00b4b7fd205c7eda3c9c0d;Sam Gillingham <gillingham.sam@gmail.com>;1523853311;"introduce new decorator for preserving gdal execption state
+"
+bluescarni_mppp;610c36813cb6afcfd2275e84111f7793c36cac20;Neil Flood <Neil.Flood@derm.qld.gov.au>;1491267841;"__init__.py: Incremented version number to 0.4.4
+"
+bluescarni_mppp;61fd3f4804240c35d3f7e939d37ac282fd45a8db;Neil Flood <neilflood@fastmail.fm>;1643079750;"saturationcheck.py flake8 errors
+"
+bluescarni_mppp;62fa10a30e3a40b467e27cf45da8b69720ecc4f8;Sam Gillingham <gillingham.sam@gmail.com>;1540792618;"make sentinel2Stacked more robust on Windows
+"
+bluescarni_mppp;6333bab5f564328a16ccdc4b2144a2a4da7b207a;Neil Flood <Neil.Flood@derm.qld.gov.au>;1464830548;"Apparently I also need to specify the '.html' to make the link work?
+"
+bluescarni_mppp;639cbc26c1c1005e6142b0a7d7037204a35747e1;Neil Flood <Neil.Flood@derm.qld.gov.au>;1465004639;"fmask_sentinel2Stacked.py: Add --cloudbufferdistance and --shadowbufferdistance options, to over-ride defaults
+"
+bluescarni_mppp;63bcf43b9386aa426c4c76724f1b9bba7a37cd7d;Sam Gillingham <gillingham.sam@gmail.com>;1540790530;"initial work on supporting entry points
+"
+bluescarni_mppp;63f5eec336f812c1f74ad0865108d8159567ecea;Neil Flood <Neil.Flood@derm.qld.gov.au>;1465012472;"Tidying up the front page doco
+"
+bluescarni_mppp;642148d2bc929ec3f0146a20c11773146b88881b;Neil Flood <Neil.Flood@derm.qld.gov.au>;1479160872;"landsatTOA.py: Set the null value directly with GDAL, rather than via RIOS's calcstats, in order to avoid calculating the stats. This saves about 10 seconds of compute time, which Xavier thinks he would like to have. Thanks to Xavier for pointing this out.
+"
+bluescarni_mppp;642cfa74b1b882bd39fbb9032949f7c39127e5de;Neil Flood <neilflood@fastmail.fm>;1742001799;"Update download/installation instructions to clarify the dependencies, and encourage the use of conda. Also updated the link to Xavier's QGis plugin repo. (#87)
+
+"
+bluescarni_mppp;6460bd80a2f977630399cff577a3289008ed49a2;Vincent Schut (schut <Vincent Schut (schut@satelligence.com)>;1538484475;"implement [Frantz 2018]'s Cloud Displacement Index for Sentinel-2
+"
+bluescarni_mppp;6462fdfd195bc2f23d85a4b06a8d155d3ae24831;Neil Flood <neilflood@fastmail.fm>;1643081060;"doc/source/conf.py flake8 errors
+"
+bluescarni_mppp;66920b416944c1d7c4bc502d32ee8f7e0c7dd6c5;Sam Gillingham <gillingham.sam@gmail.com>;1710112643;"convert from bool to uint8 before writing output
+"
+bluescarni_mppp;66f1db59d432455b96ed7c96ddae0a68345e7481;Neil Flood <Neil.Flood@derm.qld.gov.au>;1565073283;"index.rst: Changed underline style for Fmask4 heading, to see if that gets it through readthedocs
+"
+bluescarni_mppp;670f82f28b0f201557eb0c03bcfe82e9ab325745;Sam Gillingham <gillingham.sam@gmail.com>;1449799667;"pulled out some thresholds into the config object so they can be changed easily by the user. Have chosen thresholds that are mainly single band etc so more likely to need tweaking. Possibly more should be done, but this seems a good start.
+"
+bluescarni_mppp;682a7f64f9893ce214b3a2a8cac546dc81bc50ef;Neil Flood <Neil.Flood@derm.qld.gov.au>;1565847117;"README.md: Update link to home page, as now needs www. prefix
+"
+bluescarni_mppp;68daf174da4c85046b4cdd722a24190ecad5dfb8;Sam Gillingham <gillingham.sam@gmail.com>;1451863186;"added script for expanding wildcards properly on Windows
+"
+bluescarni_mppp;6c2b32e8f9a5ae0168541f806427d59f4643afaf;Neil Flood <neilflood@fastmail.fm>;1462078931;"Add empty line to make the bullet list following it format properly in Sphinx.
+"
+bluescarni_mppp;6cd03bd72d585d5da7f616c1cfd242de963f1581;Neil Flood <Neil.Flood@derm.qld.gov.au>;1465014010;"Still trying to find the Sphinx escape sequence for --
+"
+bluescarni_mppp;6d18e29a0bc1e45eb425be06a96da81a57f60f89;Neil Flood <Neil.Flood@derm.qld.gov.au>;1494445909;"config.py: Faking of new names from old must be conditional on the old names being present
+"
+bluescarni_mppp;6d30b2e6c2aab8cf93705e6d5190dc0dd4502b3c;Sam Gillingham <gillingham.sam@gmail.com>;1598934666;"Update to version 0.5.5
+"
+bluescarni_mppp;6dce57ad5a65283005495e858ed6ad69231a5395;Neil Flood <Neil.Flood@derm.qld.gov.au>;1547513797;"fmask.py: Remove recently-created test on expected number of bands. This needs to be more carefully thought through, and in its current form it breaks Landsat-7 processing.
+"
+bluescarni_mppp;6ff709c0b023c5c29ff703e18809a167c1143553;Sam Gillingham <gillingham.sam@gmail.com>;1443050135;"fix various bugs with valueindexes
+"
+bluescarni_mppp;7099750d3cc03de7282028bb065285dcfbb252c0;Sam Gillingham <gillingham.sam@gmail.com>;1661813234;"keep linter happy
+"
+bluescarni_mppp;712bd707aebf4769cee7b9240eca9209ed30b3e9;Neil Flood <Neil.Flood@derm.qld.gov.au>;1464829947;"Use 32767 for the null value on landsat TOA reflectance. Output will be null where ANY input band is null, rather than separately per band. Clip negative reflectances to zero, as I would not really trust a negative reflectance to be harmless.
+"
+bluescarni_mppp;7156989dbc009fc2e9c2f82c57e8050bdb8d8b73;Neil Flood <Neil.Flood@derm.qld.gov.au>;1491264138;"fmask_sentinel2Stacked.py: Add commandline options for setting the snow reflectance thresholds
+"
+bluescarni_mppp;717070940d9b5700fc3401f0528be31c929afe99;Neil Flood <Neil.Flood@derm.qld.gov.au>;1465002039;"Note in commandline examples section that all comandline programs use argparse, and hence respond to --help.
+"
+bluescarni_mppp;72e6f7c6591003735f725209951a64f9751f6d63;Neil Flood <neilflood@fastmail.fm>;1643078682;"landsatangles.py flake8 errors
+"
+bluescarni_mppp;747d1c96caaa1201ea812a8c1661e1a03694c202;Neil Flood <Neil.Flood@derm.qld.gov.au>;1539810718;"Update version number 0.5.0
+"
+bluescarni_mppp;74dc9d490cfa7c5c4d9c655fa2611780a46d6a04;Neil Flood <Neil.Flood@derm.qld.gov.au>;1462396720;"Update from page doc to mention the values coded into the output raster, as I could not find this explicitly stated elsewhere.
+"
+bluescarni_mppp;756ae596d85fbcc91f5a6eef0efc05fd8674e374;Neil Flood <neilflood@fastmail.fm>;1661823174;"Update contact email address
+"
+bluescarni_mppp;75fdec71e4a3a2f0e04b4c7c28e69163074d2eeb;Neil Flood <Neil.Flood@des.qld.gov.au>;1574137889;"Converted .hgignore to .gitignore
+"
+bluescarni_mppp;7646c578d97898d239c9ecf2717e06e4b082a561;Neil Flood <neilflood@fastmail.fm>;1719889929;"Spelling
+"
+bluescarni_mppp;7692ce8e0f4c88866ed248e2fc49a4de1d85d4f0;Neil Flood <Neil.Flood@derm.qld.gov.au>;1564471173;"fmask.py: Simplified logic for deciding whether we have enough land pixels. Now needxs at least 3 pcnt of the non-null area to be clear land for it to use those pixels to decide the landThreshold.
+"
+bluescarni_mppp;76cc0aefdf6ed7c9f33f4e0a7e2540b1e744e78a;Neil Flood <neilflood@fastmail.fm>;1643079706;"landsatTOA.py flake8 errors
+"
+bluescarni_mppp;7790fc83ff01f6cd51d7a0a704b9083f508c6698;Neil Flood <neilflood@fastmail.fm>;1462076571;"Messing around with setup.py to make it compatible with running on ReadTheDocs. Not quite sure what I am doing.....
+"
+bluescarni_mppp;78cdeee26b77fdd034e5066ca310f3c78e021ea1;Sam Gillingham <gillingham.sam@gmail.com>;1450136423;"Added tag python-fmask-0.2 for changeset a505d6aedec6
+"
+bluescarni_mppp;78ef1bdbc0ffc2fcc76c388b8eae04f30a2792d5;Neil Flood <neilflood@fastmail.fm>;1687148372;"Add full madness of explicit versions, and explicit conf.py, and expl… (#70)
+
+* Add full madness of explicit versions, and explicit conf.py, and explicit path for import. Not sure how much of this I need, but my initial minimall attempt was not enough, so....
+
+* import os
+
+* noqa for fmask import line"
+bluescarni_mppp;7a6751d85845b58161db143e65cd2810e77e55db;Neil Flood <neilflood@fastmail.fm>;1663116210;"fmask.py: Put the exception reset into the finally clause, so it always happens
+"
+bluescarni_mppp;7ad1517bd477e33883b5c54d6be3d83cb532bccb;Sam Gillingham <gillingham.sam@gmail.com>;1449828218;"Automated merge with https://bitbucket.org/chchrsc/python-fmask
+"
+bluescarni_mppp;7bf07c3bbfb0928490fc30e95e1a7c7a3f789dbc;Neil Flood <neilflood@fastmail.fm>;1719887136;"Remove redundant imports
+"
+bluescarni_mppp;7c388ef849d3441bd604d1d143d9e7d871d49713;Neil Flood <Neil.Flood@derm.qld.gov.au>;1543194801;"Change my email in the setup.py to be @des, as @dsiti is obsolete (sigh....)
+"
+bluescarni_mppp;7dc6fc947bb460211b0566fa5aace3e6cc4a4fa4;Neil Flood <neil.flood@des.qld.gov.au>;1539729044;"Merged in vincentschut/python-fmask/sentinel2-parallax (pull request #8)
+
+Sentinel2 parallax
+"
+bluescarni_mppp;803aacc2cffa9817aa097a718f9df2d04f268fce;Neil Flood <Neil.Flood@derm.qld.gov.au>;1464918595;"config.py: Added setMinCloudSize() method
+"
+bluescarni_mppp;80d3d0c419b21814e51fef64aad2042cb6b37390;Neil Flood <Neil.Flood@derm.qld.gov.au>;1499062994;"config.py: Some comments were written as strings, as so were being taken by Sphinx as being docstrings for the constants defined before them, which was wrong. Converted these to normal comments with '#'.
+"
+bluescarni_mppp;810cf52a719dfb26b13d8548f51762ed25907c4f;Neil Flood <Neil.Flood@derm.qld.gov.au>;1493934611;"Added a note about the wild cards needed for older USGS naming
+"
+bluescarni_mppp;8132d8967d81944a7f6862e75ff88342177dfeba;Neil Flood <Neil.Flood@derm.qld.gov.au>;1458541654;"Wrap the rat.writeColumn() call in a try statement, so it will fail gracefully and continue when used with formats which do not support RATs, e.g. GTiff without PAM support.
+"
+bluescarni_mppp;81d68dc16e56fe46c87d4776e910c73b20db8b29;Neil Flood <Neil.Flood@derm.qld.gov.au>;1464907465;"Fixed docstring in fmask module to remove out-dated reference to separate output files. That was from my original code, not this implementation.
+"
+bluescarni_mppp;81dfe1f5b820be8e4d5a2b40e83fe16ea9b52ba0;Neil Flood <Neil.Flood@derm.qld.gov.au>;1472646265;"Automated merge with https://bitbucket.org/chchrsc/python-fmask
+"
+bluescarni_mppp;82e7496c73420f2085bed2f89cd67cb4dd357452;Neil Flood <Neil.Flood@derm.qld.gov.au>;1458557138;"Require use of angles image for sentinel2Stacked. Remove option for using scene-average angles.
+"
+bluescarni_mppp;8493c24d95cd3d651b43d9c63ba46bff33b1637f;Neil Flood <Neil.Flood@derm.qld.gov.au>;1458547639;"Modify import of mock modules in sphinx conf. Now attempts to import the real modules, and only uses mock if the real modules are not available.
+"
+bluescarni_mppp;84b3af6403059c43fcb7defc0ae7daa9b7ab7f20;Neil Flood <Neil.Flood@derm.qld.gov.au>;1472646151;"Added tag pythonfmask-0.4.1 for changeset d7e9c97428b8
+"
+bluescarni_mppp;8517d4f3959ff7b474bf5445634c9db4cdd2555d;Neil Flood <Neil.Flood@derm.qld.gov.au>;1479158169;"Removed use of the rios getNoDataValueFor() function, in favour of getting the null value with fileinfo.ImageInfo(), in order to facilitate multiprocessing (for any users who wish to experiment with that). Thanks to Xavier Corredor Llano for noting this problem.
+"
+bluescarni_mppp;858c377f99c90472851ec1e761e81395320bf638;Neil Flood <Neil.Flood@derm.qld.gov.au>;1491265926;"releasenotes.rst: Notes for proposed 0.4.4 release
+"
+bluescarni_mppp;866ee42c408906dfd7f409b99beca874f54de869;Sam Gillingham <gillingham.sam@gmail.com>;1710119771;"convert from bool to uint8 before writing output (#74)
+
+"
+bluescarni_mppp;869be1f0ca19fb48d7bd9bfd3313ee3a79f724b0;Sam Gillingham <gillingham.sam@gmail.com>;1480029646;"Fix help message printing
+"
+bluescarni_mppp;883a42726d8af79beae62b626f71086b09b7346b;Neil Flood <neilflood@fastmail.fm>;1742001310;"Update download/installation instructions to clarify the dependencies, and encourage the use of conda. Also updated the link to Xavier's QGis plugin repo.
+"
+bluescarni_mppp;8a54b2a960b33237c1f9f24b87ca43ea58d40db2;Sam Gillingham <gillingham.sam@gmail.com>;1489632311;"remove reference to 'rios' conda channel. Packages are now in conda-forge
+"
+bluescarni_mppp;8c8b774ee332fa5e48d95f2797cdd813028f0901;Neil Flood <Neil.Flood@derm.qld.gov.au>;1465180605;"landsatangles.py: Typo in docstring
+"
+bluescarni_mppp;8cc0338ec911fee24f18aee09cc11637aadc8022;Neil Flood <Neil.Flood@derm.qld.gov.au>;1464951548;"fmask_sentinel2Stacked.py: Convert optparse to argparse
+"
+bluescarni_mppp;8ceed35d92a112c0a7fcd9b82039336c496e5ca4;Sam Gillingham <gillingham.sam@gmail.com>;1450735909;"README.md edited online with Bitbucket
+"
+bluescarni_mppp;8d79866bbfdb33184d3da2ccc230ad5114c30c30;Neil Flood <neilflood@fastmail.fm>;1643081203;"Merge pull request #51 from neilflood/flake8support
+
+Flake8support"
+bluescarni_mppp;8f3d31a2db5bd98255d1db4a1acd9aa1da222ac3;Sam Gillingham <gillingham.sam@gmail.com>;1451799697;"updated doc main page to mention landsat 5. Also mention that wildcard expansion won't work for Windows users
+"
+bluescarni_mppp;8fef66d4fb4c3142ab2e4c93ad376eda4f37cefe;Sam Gillingham <gillingham.sam@gmail.com>;1663040306;"remove unused import
+"
+bluescarni_mppp;91199e023e21fa107175330a302ee529673c4998;Neil Flood <neilflood@fastmail.fm>;1663115002;"fmask.py: Remove blanket call to UseExceptions, and explicitly guard call to rat.WriteColumn with exceptions 'on'
+"
+bluescarni_mppp;91375b8d3dfefb9c42065b931fa8e6e49c210cbc;Neil Flood <neilflood@fastmail.fm>;1719890045;"Update CreateDistribution.txt to use 'build' instead of direct call t… (#82)
+
+* Update CreateDistribution.txt to use 'build' instead of direct call to setup.py
+
+* Spelling"
+bluescarni_mppp;925bc5c988a4d7d82785c6aef3a3018a6e39d971;Neil Flood <neilflood@fastmail.fm>;1598934133;"Updated CreateDistribution.txt for use with git & github
+"
+bluescarni_mppp;92e375ee69004789fadcfb5a8a42e3054a0ec6e5;Neil Flood <Neil.Flood@derm.qld.gov.au>;1491264242;"Automated merge with https://bitbucket.org/chchrsc/python-fmask
+"
+bluescarni_mppp;9313d3e84c58da4aa13350ae3abefe226e849e28;Robin Wilson <robin@rtwilson.com>;1465032696;"Renamed angles.py to landsatangles.py
+"
+bluescarni_mppp;9354e90edd81227c1957f576d6301bf9532c418e;Neil Flood <Neil.Flood@derm.qld.gov.au>;1491191549;"index.rst: Added a brief warning about the considerable slowdown involved in processing at 10m resolution, after seeing some people on a web forum complaining about how slow this version of Fmask is when run at 10m. Sigh.....
+"
+bluescarni_mppp;93cc63538fee9da8f4ea38ee5cddca35f81656fa;Sam Gillingham <gillingham.sam@gmail.com>;1540864068;"remove fmask_expandWildcards
+"
+bluescarni_mppp;9436640584ad3214827475658ec6a75f4f543796;Sam Gillingham <gillingham.sam@gmail.com>;1540961006;"a few more Windows fixes
+"
+bluescarni_mppp;948d0ffe6cd1d7dd41b5a09b7f10a8c930d077e7;Sam Gillingham <gillingham.sam@gmail.com>;1710282066;"update to 0.5.9
+"
+bluescarni_mppp;94dff6e727921a4b46174ceb551681860367a5f8;Neil Flood <Neil.Flood@derm.qld.gov.au>;1465004602;"fmask.py: Cope when the shadowBufferSize is zero
+"
+bluescarni_mppp;9568485d14174a5746ba23c02cb1e612f5286318;Neil Flood <Neil.Flood@derm.qld.gov.au>;1465002199;"Re-format the Sentinel-2 example commandlines, for better readability (I think...)
+"
+bluescarni_mppp;9612e8ef8ab2eac8ce3c3c3779989599985f3fe1;Neil Flood <neilflood@fastmail.fm>;1671610042;"Take care of input NaN values in S-2 angles *before* attempting astype(int16). It seems that numpy-1.24 changes the behaviour of astype() in this regard.
+"
+bluescarni_mppp;96bba0181b4b2566232d6a799f7ef14251b2ee47;Sam Gillingham <gillingham.sam@gmail.com>;1451864031;"updated version to 0.2.1
+"
+bluescarni_mppp;97a8b052e4d00b98ec4ff27c06dd82001fe976fb;Neil Flood <Neil.Flood@derm.qld.gov.au>;1544234274;"Do not use subprocess to run sentinel2makeAnglesImage, but call directly to the internal function instead. This works better on Windows/Conda.
+"
+bluescarni_mppp;99754b740dbf383ef9f83765a632cedf1a26ab3d;Neil Flood <Neil.Flood@derm.qld.gov.au>;1491254431;"Fixed inconsistent spelling of Eqn17CloudProbThresh in several places. Added programmatic method for setting the GDAL driver of the final output image.
+"
+bluescarni_mppp;9b6883b079e82bfd11a0ecd49c147d49df2a1654;Neil Flood <Neil.Flood@derm.qld.gov.au>;1464997732;"Merged filtersmallclouds branch into default. This adds an optional capacity to filter out cloud objects of less than a minimum size (in pixels), prior to any buffering, on the assumption that they are sometime more likely to be out-ground bright features, rather than clouds. I am not yet decided whether this is a good thing to do generally, so the default will be not to do this (for now), but the option is now there, and people can start to play with it, if desired. Many thanks to Daniel Odermatt for suggesting this idea.
+"
+bluescarni_mppp;9e75d670a78e59961191e4725c3b37d6b08bdf33;Sam Gillingham <gillingham.sam@gmail.com>;1443076914;"more fixes and added TOA scripts
+"
+bluescarni_mppp;9eed3c7922bdbf9f12ed0aa47d7de5cc3a0f9c75;Neil Flood <Neil.Flood@derm.qld.gov.au>;1493932517;"config.py: Further changes for oldest MTL format. Different format of SPACECRAFT_ID string, and calculate thermal gain/offset from LMAX/LMAX
+"
+bluescarni_mppp;9fd29470f78ad57296a015a0fcf9bacffa1fb774;Sam Gillingham <gillingham.sam@gmail.com>;1462341315;"removed reference to Sourceforge in the doco
+"
+bluescarni_mppp;a0f631a846b07d2cbaeb9373431c4565bb5a680d;Neil Flood <Neil.Flood@derm.qld.gov.au>;1458557073;"Added exception for errors in sen2meta
+"
+bluescarni_mppp;a1effe694ca7e98ecfb28c0096644caeb35d6fa9;Neil Flood <Neil.Flood@derm.qld.gov.au>;1458550186;"Further note in Philosophy section, explaining that the modular design helps in working for both Landsat and Sentinel.
+"
+bluescarni_mppp;a2d4a9a93e8981eac339d6c40304d903d29ec67d;Neil Flood <neilflood@fastmail.fm>;1643075558;"Merge pull request #50 from gillins/distutils
+
+use numpy.distutils with readthedocs as distutils is now deprecated"
+bluescarni_mppp;a3a2eacc6f22c5d19d672bd1732fe2673a774cc0;Neil Flood <Neil.Flood@derm.qld.gov.au>;1458449764;"Require the angles file on commandline, exit if not given.
+"
+bluescarni_mppp;a3c2c0bb308a77086f9e4ba3113dc8a5bb6cb2d5;Neil Flood <Neil.Flood@derm.qld.gov.au>;1462362714;"Prevent boundaryval from ever being < hMin, as this can cause the C code to segfault.
+"
+bluescarni_mppp;a405dd0e11d5f930f6cb4a436cd227b1e1b36b12;Sam Gillingham <gillingham.sam@gmail.com>;1461724130;"added missing import
+"
+bluescarni_mppp;a427b1ffdaf9a2abf316f6b6ffe53695d2325521;Neil Flood <Neil.Flood@derm.qld.gov.au>;1462397745;"Automated merge with https://bitbucket.org/chchrsc/python-fmask
+"
+bluescarni_mppp;a49000beb6642a7abd2160621aec522a9ec214d7;Sam Gillingham <gillingham.sam@gmail.com>;1661813120;"update install to use entry points
+"
+bluescarni_mppp;a49a07125e64a81f992c6c054e0f9c8989ee36e5;Neil Flood <neilflood@fastmail.fm>;1634279773;"Fix typo in name of fmask.config.setTOARefOffsetDict(). Cosmentic only, but stoopid if left that way.
+"
+bluescarni_mppp;a4fb11a0c528fca9ba809a6984028f25c96475f4;Neil Flood <neilflood@fastmail.fm>;1671605256;"Cope with numpy-1.24 type symbol deprecations
+"
+bluescarni_mppp;a599e622ca462c3bd78cf572196f271ae2bab89f;Neil Flood <Neil.Flood@derm.qld.gov.au>;1472646350;"Added tag pythonfmask-0.4.2 for changeset c910580cc3e3
+"
+bluescarni_mppp;a8683e7b9e441fee86a43c5a7e3058dcfe96aecb;Neil Flood <neilflood@fastmail.fm>;1719727666;"First working attempt at pyproject.toml with setuptools
+"
+bluescarni_mppp;aa157d7575f8ab91512b11e1ea4877ca46489d44;Sam Gillingham <gillingham.sam@gmail.com>;1445210423;"README.md edited online with Bitbucket
+"
+bluescarni_mppp;aa61b456ea0aa693e95f772937469d404076b197;Neil Flood <neilflood@fastmail.fm>;1718701019;"Explicitly cast indices to int, to cope with numpy-2 changes to scalar handling (#79)
+
+"
+bluescarni_mppp;aa836ed6875c6244a5908476cddd016801887e84;Neil Flood <Neil.Flood@derm.qld.gov.au>;1451774749;"valueindexes.py: Properly handle the shape difference binEdges and maskedCounts. The line above this already handles it correctly, but apparently earlier versions of numpy did not notice the mis-handling of this line. It appears that numpy 1.10 now traps this, hence we noticed.
+"
+bluescarni_mppp;ab08557be55d3d13c95e7de9cb01c421f34c7276;Neil Flood <Neil.Flood@derm.qld.gov.au>;1458455843;"Require anglesfile image as input.
+"
+bluescarni_mppp;ab4523e20629bd86dfe53a68c34d7ebe56fe77b8;Neil Flood <Neil.Flood@derm.qld.gov.au>;1543195849;"Added tag pythonfmask-0.5.1 for changeset 2ceb59041991
+"
+bluescarni_mppp;abd192b7a81456d79503c09b379942bd09440bf2;Neil Flood <Neil.Flood@derm.qld.gov.au>;1464907844;"Fiddling with #: comments on module-level constants, to make vaguely sensible annotations in the Sphinx-formatted doc page
+"
+bluescarni_mppp;ad0854659f81f1cd3cdae3aa5ece7c310ad83dac;Neil Flood <Neil.Flood@derm.qld.gov.au>;1465072769;"fmask_usgsLandsatMakeAnglesImage.py: Fixed import of angles module to match rename to landsatangles
+"
+bluescarni_mppp;ad2f816a502b8a4cb1df3e5802c62c0b45eca70b;Neil Flood <neilflood@fastmail.fm>;1660088625;"Use setuptools and piip for packaging and installation
+"
+bluescarni_mppp;ade51c2242b5eefc00a5b04116666fbd659136be;Neil Flood <Neil.Flood@derm.qld.gov.au>;1458448180;"Include a scaling parameter to get radians from the DN values in the given angles image file.
+"
+bluescarni_mppp;aeec360a56e7d5ee308481da6d8398911234c2fb;floriandeboissieu <fdeboiss@gmail.com>;1594033405;add docstring for argv
+bluescarni_mppp;b1f9fed4898157f6b51b2b25020dd7577724f598;Neil Flood <neilflood@fastmail.fm>;1671657943;"Create release 0.5.8 (#67)
+
+"
+bluescarni_mppp;b385ca153aa4a9541227a1614e5d99ad61657801;Neil Flood <Neil.Flood@derm.qld.gov.au>;1458455784;"Fixed typo in transcribed sun position code.
+"
+bluescarni_mppp;b461d061208acf7b3adec5c0f818ae0076319f4a;Vincent Schut (schut <Vincent Schut (schut@satelligence.com)>;1538487197;"add resampling to 20m to docs
+"
+bluescarni_mppp;b4feaf1fe4da055c71e13318977132628c530378;Neil Flood <Neil.Flood@derm.qld.gov.au>;1499063162;"Automated merge with https://bitbucket.org/chchrsc/python-fmask
+"
+bluescarni_mppp;b50aaaae4833f740055a16f8fe33a34566b6398a;Neil Flood <Neil.Flood@derm.qld.gov.au>;1464828296;"Added a small section on the front page, pointing programmers in the right direction for writing their own wrappers and re-configuring. Thanks to James Shpeherd for suggesting this.
+"
+bluescarni_mppp;b73dded9e1341b82381ab53b7001a5958490acc8;Neil Flood <neilflood@fastmail.fm>;1587716636;"Merge pull request #37 from benjimin/patch-2
+
+Clarify precedence (cloud > shadow > snow > water)"
+bluescarni_mppp;b91ababeb5d7d219131e1c5232c60088f0f8fdc1;Sam Gillingham <gillingham.sam@gmail.com>;1710115809;"use entrypoints instead of .py scripts for the command line
+"
+bluescarni_mppp;b9858ef95f2253b0267dd6bcb2bb37c283743592;Neil Flood <Neil.Flood@derm.qld.gov.au>;1499063139;"config.py: Some comments were written as strings, as so were being taken by Sphinx as being docstrings for the constants defined before them, which was wrong. Converted these to normal comments with '#'.
+"
+bluescarni_mppp;ba16f92030d984144aba07d6f192062a4ec94970;Neil Flood <Neil.Flood@derm.qld.gov.au>;1458469899;"Added a section outlining the philosophy of having the main algorithm as a module, with wrapper main script(s). Added instructions under Landsat for handling the per-pixel angles requirement. Added note that Sentinel-2 is still a work in progress.
+"
+bluescarni_mppp;ba2f2a93784fa48a0c1a67d5e0bbccb1a391a4f4;floriandeboissieu <fdeboiss@gmail.com>;1593708393;"extend to python scripting support
+
+Current version is made for command  line only, i.e. command line arguments are taken from sys.argv.
+I propose to add an argv argument to mainRoutine so that it can be called directly from a python session.
+I have done it with sentinel2Stacked, but same could be done with others mainRoutines."
+bluescarni_mppp;ba33e63128c117be3e92c56850b6735aed9d45a7;Neil Flood <Neil.Flood@derm.qld.gov.au>;1543193300;"Merged entrypoints branch into default
+"
+bluescarni_mppp;bb1363b0c6977f3e06fa2b0c340681a49ff7139d;Sam Gillingham <gillingham.sam@gmail.com>;1450083898;"Automated merge with https://bitbucket.org/chchrsc/python-fmask
+"
+bluescarni_mppp;bb7accf7deab2b99813456aec064251aadeadc00;Sam Gillingham <gillingham.sam@gmail.com>;1442898606;"more tidy up and removal of dependencies
+"
+bluescarni_mppp;bb9f026ad7149ca676569711601de75ebfa7502b;Neil Flood <Neil.Flood@derm.qld.gov.au>;1491190313;"fmask_sentinel2Stacked.py,fmask_usgsLandsatStacked.py: Correct name of setEqn17CloudProbThresh() method.
+"
+bluescarni_mppp;bc7e5a951d0b4f46de1ce26d7702d926a4aa9830;Neil Flood <Neil.Flood@derm.qld.gov.au>;1565058626;"__init__.py: Update version number to 0.5.4
+"
+bluescarni_mppp;bd69da0d1c220aecffa00dfc2b0ca816e34e3d8f;Neil Flood <Neil.Flood@derm.qld.gov.au>;1493930436;"config.py: Fake date/time field names for older format of MTL file
+"
+bluescarni_mppp;bd9b7d97e8b38f20cb4d4f1178569e449192bc38;Neil Flood <Neil.Flood@derm.qld.gov.au>;1539752352;"index.rst: Added citation for Frantz (2018), parallax test. Updated example workflow for Sentinel-2, to use the new --safedir (or --granuledir) options.
+"
+bluescarni_mppp;bde15eba4aa33951057c734b4b2797d5d0c8319e;Neil Flood <Neil.Flood@derm.qld.gov.au>;1464918669;"fmask.py: Filter small clouds based on configured minCloudSize. Used a simpler approach than initial framework, hence lots of deleted lines as well.
+"
+bluescarni_mppp;be0a39d3eaf35aaebb6076f6caa4a1f87434b896;Sam Gillingham <gillingham.sam@gmail.com>;1710281255;"use entrypoints instead of .py scripts for the command line (#75)
+
+"
+bluescarni_mppp;be27b33c669a3afa38bae33e2d38a626ea5a4da7;Neil Flood <Neil.Flood@derm.qld.gov.au>;1529977116;"Created test-parallax branch, and inserted my rough implementation of the Franz 2018 parallax improvement for Fmask/Sentinel-2
+"
+bluescarni_mppp;be79c1999faf1c4d8e6f0ecf807bd1187356c41d;Neil Flood <neilflood@fastmail.fm>;1594283085;"Merge pull request #41 from floriandeboissieu/patch-1
+
+python script support"
+bluescarni_mppp;bedd07de3e062fa8c1f7d324da5b82d5468aa3b3;Neil Flood <Neil.Flood@derm.qld.gov.au>;1465517320;"fmask.py: use applier.dfltDriverOptions[applier.DEFAULTDRIVERNAME] instead of the now-deprecated applier.DEFAULTCREATIONOPTIONS, for the temporary images we have to create directly
+"
+bluescarni_mppp;bf10b31e0a868d8f959fc1dca95f80e4c1bf0a56;Sam Gillingham <gillingham.sam@gmail.com>;1442298894;"initial commit of files
+"
+bluescarni_mppp;c1593965363e1fa908fa8af1e66cd55ac1c8bee0;Sam Gillingham <gillingham.sam@gmail.com>;1643076770;"blank line to trigger readthedocs rebuild
+"
+bluescarni_mppp;c1daf47ff10d32d3cc827e2cc6a062b9cd42085e;Sam Gillingham <gillingham.sam@gmail.com>;1480115849;"updated release notes
+"
+bluescarni_mppp;c3c747991c5f7cf6162346e86cdcc8afd59a8dd9;Neil Flood <Neil.Flood@derm.qld.gov.au>;1465073175;"Link to landsatangles doc page
+"
+bluescarni_mppp;c48570726ad1dfcbb3ef58afb79444f4c801fdf7;Neil Flood <neilflood@fastmail.fm>;1663115092;"usgsLandsatStacked.py,sentinel2Stacked.py: Explicitly guard calls to gdal_merge.main() to have exceptions 'off', because it does not cope at all well if they are 'on'
+"
+bluescarni_mppp;c59aeb5ae350e3e5daca51e96c1549f1cc4d25fa;Neil Flood <Neil.Flood@derm.qld.gov.au>;1465180512;"landsatangles.py: Added module-level docstring
+"
+bluescarni_mppp;c61ac72b16cb4844df43be6152ab11516eeaa9d0;Neil Flood <Neil.Flood@derm.qld.gov.au>;1458550620;"Added fmask.sen2meta.py, copied from my in-house module.
+"
+bluescarni_mppp;c85cb9af6f39f627ea0112ba0e118a902a7f5281;Neil Flood <Neil.Flood@derm.qld.gov.au>;1464918756;"fmask_usgsLandsatStacked.py: Converted to use argprse instead of optparse. Added --mincloudsize option, defaulting to zero (i.e. no filtering)
+"
+bluescarni_mppp;c85d1fb475785aaaafba9eb5952b44852800ed2d;Sam Gillingham <gillingham.sam@gmail.com>;1663054857;"remove file before calling gdal_merge
+"
+bluescarni_mppp;c880096340c161236f652ca9e075c524a5d779f7;Neil Flood <neilflood@fastmail.fm>;1696809705;"Use autodoc_mock_imports (#71)
+
+"
+bluescarni_mppp;c8abe445e107ac90cf191729a9d2a5bb2062e201;Neil Flood <Neil.Flood@derm.qld.gov.au>;1465554031;"Try again with internal link syntax
+"
+bluescarni_mppp;c8f13b5b9c749b8ad507756668df2406c541ad56;Sam Gillingham <gillingham.sam@gmail.com>;1451863981;"updated doco to reference fmask_expandWildcards.py and Windows packages on Conda
+"
+bluescarni_mppp;c952a6ea36f620b52ba49a865248ea7759b33dd9;Neil Flood <neilflood@fastmail.fm>;1643078855;"valueindexes.py flake8 errors
+"
+bluescarni_mppp;ca697c26824046f46ac8ceea79a814f9aa7c4ed4;Neil Flood <neilflood@fastmail.fm>;1663114928;"config.py,landsatTOA.py,sentinel2makeAnglesImage.py: Remove apparently unnecessary calls to UseExceptions
+"
+bluescarni_mppp;cb416144bd23fdd8d3dbf88796a07d93217eec61;Neil Flood <Neil.Flood@derm.qld.gov.au>;1462395581;"Defined constants to represent the output values, so that other applications can avoid hard-wiring the same values
+"
+bluescarni_mppp;cd0d5b694f143018d4cae83878159ae1b318f547;Neil Flood <neilflood@fastmail.fm>;1644547108;"Typo in heading line
+"
+bluescarni_mppp;cd0e5c93634a89caca88c218ca8b66e5b6fe65c0;Neil Flood <neilflood@fastmail.fm>;1718751980;"Release 0.5.10
+"
+bluescarni_mppp;cd1fd23541c8e6ec00d641e3488238bcdafca521;Sam Gillingham <gillingham.sam@gmail.com>;1451796150;"fixed compiler warning
+"
+bluescarni_mppp;cdc254af5fed820030fe7245e0531cd1f90dbe38;Neil Flood <neilflood@fastmail.fm>;1687146786;"First attempt at what is needed for RTD config
+"
+bluescarni_mppp;cde090fa4cd38a2a3ac9bbdbe1780b8921a70763;Neil Flood <Neil.Flood@derm.qld.gov.au>;1472645790;"fmask.py: For Sentinel-2 only, construct refNullMask from a subset of the reflactance bands. This is to avoid the alarming number of random null pixels which ESA currently leave in some of the IR bands, most notably the cirrus band. By doing this, we avoid leaving random null holes in the resulting masks.
+"
+bluescarni_mppp;ce9aa4c30f853a306fd572009294765f0c12b2f6;Neil Flood <neilflood@fastmail.fm>;1687148050;"import os
+"
+bluescarni_mppp;ced4e1632b696ecb39697108a1fe2ceb1f0ec86c;Sam Gillingham <gillingham.sam@gmail.com>;1710282511;"Create Release 0.5.9 (#76)
+
+* update to 0.5.9
+
+* improve doco"
+bluescarni_mppp;d255d0f6567f8f256ef048ea9fe9cdee47ddc1ad;Sam Gillingham <gillingham.sam@gmail.com>;1638850264;"remove unnecessary import and use numpy on readthedocs also
+"
+bluescarni_mppp;d27549b3bcd71bd6288af6f0ba7828dc07dad9a1;Neil Flood <Neil.Flood@derm.qld.gov.au>;1458540644;"Make the camel case on missingthermal consistent with how it appears in the rest of the file.
+"
+bluescarni_mppp;d27de8d62d1b4640cb13c0aa9ae57f8debb32b41;Neil Flood <Neil.Flood@derm.qld.gov.au>;1565055712;"index.rst: Added disclaimer, to make clear that all errors are ours, and the original authors bear no responsibility
+"
+bluescarni_mppp;d31e9458b7cf1ecfde0ae6bef9c6da026ebb68fe;Neil Flood <neilflood@fastmail.fm>;1643078035;"sentinel2Stacked.py flake8 changes
+"
+bluescarni_mppp;d33e8e7d075853e7fc5881ad1e75440fc9b9d835;Neil Flood <Neil.Flood@derm.qld.gov.au>;1539730003;"config.py: Add config method to set the displacement test switch to True
+"
+bluescarni_mppp;d3c85c5e4110d951323910e1cc7019fc3a0b9274;Sam Gillingham <gillingham.sam@gmail.com>;1464844153;"changed link syntax to use the internal link format
+"
+bluescarni_mppp;d49458b92afff262fa837243c047a4eff0903300;Neil Flood <Neil.Flood@derm.qld.gov.au>;1462395970;"Use the OUTCODE_NULL value when setting the output null, just for total consistency
+"
+bluescarni_mppp;d5c136c67edf0c27e17167164ba9303c53571ef4;Sam Gillingham <gillingham.sam@gmail.com>;1450155632;"altered main doc page to mention the presence of Conda packages and Issue tracker
+"
+bluescarni_mppp;d66f9753b4396a6e39867ae173d19ce888c40d85;Neil Flood <Neil.Flood@derm.qld.gov.au>;1523915356;"index.rst: Added a note about the fact that the USGS now include an Fmask-based coud mask in their QA layer. Thanks to Christof Kaufmann for suggesting this.
+"
+bluescarni_mppp;d69bbc0dd2775a526ba7898bd14760ed4c489fae;Neil Flood <neilflood@fastmail.fm>;1643078294;"sentinel2makeAnglesImage.py flake8 errors
+"
+bluescarni_mppp;d72087e480942d7ea3d895c9af4754ae38ae2ca5;Neil Flood <Neil.Flood@derm.qld.gov.au>;1451774755;"Automated merge with https://bitbucket.org/chchrsc/python-fmask
+"
+bluescarni_mppp;d75e94ae588dab07faa768a540a4d0f0b2bb9ecc;Neil Flood <neilflood@fastmail.fm>;1634272656;"Cope with ESA's new radiometric offsets in the L1C imagery
+"
+bluescarni_mppp;d8da61db3d6d7225f55bb6d8c71150bbb334ce36;Neil Flood <Neil.Flood@derm.qld.gov.au>;1539806960;"fmask_sentinel2Stacked.py: Return the granule dir from findGranuleDir() (obviously)
+"
+bluescarni_mppp;d979e22f11e69142ee75b1cf2550f5fc8bfd86cc;Sam Gillingham <gillingham.sam@gmail.com>;1485835712;"Update setup.py to be able to include .bat files in sdist on non-Windows OS and udpate doco
+"
+bluescarni_mppp;d9a689a38f84d41a2c757e70361b1be5d7f45100;Neil Flood <Neil.Flood@derm.qld.gov.au>;1458512290;"Changed docstring-like comments next to module constants into Sphinx-style constant docstrings, as Sphinx was mis-placing the existing ones to match them with the wrong constants. Normal pydoc help ignores all of them anyway, so no conflict there.
+"
+bluescarni_mppp;db2bbe566ccf98948ee4e654da4d9bba0215aaa4;Sam Gillingham <gillingham.sam@gmail.com>;1541027991;"initial update of doco to cover --scenedir
+"
+bluescarni_mppp;db626e3421321e3fb7e318f31a0522b25ab634cd;Neil Flood <Neil.Flood@derm.qld.gov.au>;1458540602;"Also output the water mask as a distinct code in the output file.
+"
+bluescarni_mppp;db92ba419f9bf7603701c333f758d425369708da;Neil Flood <Neil.Flood@derm.qld.gov.au>;1539752219;"fmask_sentinel2Stacked.py: Added --safedir and --granuledir options, to package up the previously manual steps of stacking the separate bands and creating the angles image.
+"
+bluescarni_mppp;dc1830ee0bac6ff52478a7b82572caae05eaa198;Neil Flood <Neil.Flood@derm.qld.gov.au>;1458428604;"Added fmask_usgsLandsatMakeAnglesImage.py, so people can do proper per-pixel angles. First cut - as yet sun angles are still constant, but satellite angles are done.
+"
+bluescarni_mppp;dcd6adb1110cc7a8f25a7343b25ddd231883235f;Neil Flood <neilflood@fastmail.fm>;1638822232;"Merge pull request #49 from StfnJ/master
+
+Ignore INSPIRE.xml when searching for metadata file in old-format zips"
+bluescarni_mppp;dcf1070a89437e3c237936998f156a691f43e6b6;Sam Gillingham <gillingham.sam@gmail.com>;1449828208;"progress towards sentinel2 support
+"
+bluescarni_mppp;dd9d86a85d813a6ee32de94051a77733068bb33a;Neil Flood <Neil.Flood@derm.qld.gov.au>;1543193452;"Close old test-parallax branch
+"
+bluescarni_mppp;dee9aea0c8f1a2ac8ef441698e28f91c95e1e7d2;Sam Gillingham <gillingham.sam@gmail.com>;1540797371;"initial work on --scenedir option to usgsLandsatStacked
+"
+bluescarni_mppp;df740ee013631f901bccf59d29fdc0357972007a;Neil Flood <Neil.Flood@derm.qld.gov.au>;1499063368;"config.py: Removed things which were not supposed to be in that last commit
+"
+bluescarni_mppp;e0b4fddf0fd1464a0c013da78a7201ba62ac773c;Neil Flood <Neil.Flood@derm.qld.gov.au>;1564464495;"fmask.py: Include some logic for choosing the landThreshold for the landProb, for cases when there is very little clear land visible.
+"
+bluescarni_mppp;e24787af2627115ffaf5563f96c3b65093687ec8;Neil Flood <Neil.Flood@derm.qld.gov.au>;1465554948;"Added tag pythonfmask-0.4.0 for changeset ce848105b010
+"
+bluescarni_mppp;e25edc84041d85dd22faafaebe9ad4e7c69e0e03;Neil Flood <neilflood@fastmail.fm>;1719884344;"Tidy up numpy deprecation warning stuff, and remove facetious remarks
+"
+bluescarni_mppp;e2a3602ae958d83edce64bc0ace8f059c67d1837;Neil Flood <Neil.Flood@derm.qld.gov.au>;1464830757;"Fiddling with wording on re-config section
+"
+bluescarni_mppp;e351f916feeb34727a218ac54c56c5455f5529b6;Sam Gillingham <gillingham.sam@gmail.com>;1542930116;"add checks that the correct number of bands are in the input files
+"
+bluescarni_mppp;e4b56dcefd8ea806185101989f67d5cabbd74bc8;Neil Flood <Neil.Flood@derm.qld.gov.au>;1472645866;"__init__.py: Updated version number to 0.4.1
+"
+bluescarni_mppp;e5db47f77cfae27668d33a97c4df8a5000f73dc8;Neil Flood <Neil.Flood@derm.qld.gov.au>;1458265684;"Use 10000 for TOA ref scaling, not 1000, mostly to match what was used in our original implementation, but also because it seems to need the extra precision.
+"

@@ -1,0 +1,454 @@
+pre/post;prj;commit;author;time;message
+pre;activitymonitoring_biobankaccelerometeranalysis;f3e1d49eeeef030e19a6e2abbb2363ca0fbb7c33;sven <svenh91@gmail.com>;1466439990;"requirements.txt argparse to correct version
+"
+pre;activitymonitoring_biobankaccelerometeranalysis;64fecab6d79b54719a6cdfc849da406ad24aa5d1;sven <svenh91@gmail.com>;1466440050;"fixed bug with equal version numbers not being evaluated as equal, and changed help messages
+"
+pre;activitymonitoring_biobankaccelerometeranalysis;2f0a62e8bc390079f4e9378d70a0a3125ff81da5;sven <svenh91@gmail.com>;1466444091;"Added automatic java installer for Win & Mac
+"
+pre;activitymonitoring_biobankaccelerometeranalysis;bbb8140b52ba01eb8d30b56ad3b650e295af538f;sven <svenh91@gmail.com>;1473088026;"gui.py bugfix
+"
+pre;activitymonitoring_biobankaccelerometeranalysis;9d7621ca14e53acee3aba1b5424b96697cc60667;sven <svenh91@gmail.com>;1473088170;".gitignore eclipse files
+"
+pre;activitymonitoring_biobankaccelerometeranalysis;43249aecc1b4a436ba53b0b9df586181c31de9db;sven <svenh91@gmail.com>;1481820842;"aded gui option
+"
+pre;activitymonitoring_biobankaccelerometeranalysis;b3499183f32c2a2c2de3ef265af8d47418b38467;Aiden Doherty <aiden.doherty@dph.ox.ac.uk>;1502116862;Update README.md
+pre;activitymonitoring_biobankaccelerometeranalysis;2ff718744b3b2e55d2c9844554663ca1d65135c6;Aiden Doherty <aiden.doherty@dph.ox.ac.uk>;1516225727;Update README.md
+pre;activitymonitoring_biobankaccelerometeranalysis;4ae7ffcbfc6c6019e69fcde49185dba3e7ec0e31;Aiden Doherty <aiden.doherty@dph.ox.ac.uk>;1516226046;Update README.md
+pre;activitymonitoring_biobankaccelerometeranalysis;53ff49a408e92a34dfd7d548d4c16fd470130852;Aiden Doherty <aiden.doherty@dph.ox.ac.uk>;1516226151;Update README.md
+post;activitymonitoring_biobankaccelerometeranalysis;20f4445692c0c0dca084eca7dfc8da1b86d15b9f;Aiden Doherty MacBookAir <aiden.doherty@dph.ox.ac.uk>;1544139578;"major upgrade that includes activity classification, refactored code, better documentation, more utility models, and better unix command line support (we no longer support windows and GUI interfaces)
+"
+post;activitymonitoring_biobankaccelerometeranalysis;798c2989df1d4ba6b7aca86c0ba46fda25b65071;Aiden Doherty MacBookAir <aiden.doherty@dph.ox.ac.uk>;1544140515;"update link to documentation
+"
+post;activitymonitoring_biobankaccelerometeranalysis;25ef9649c21c983fa2db372df830ddd9270abaed;Aiden Doherty MacBookAir <aiden.doherty@dph.ox.ac.uk>;1544143304;"move setup for pip install to root dir, which may lead to better integration with automated documentation site
+"
+post;activitymonitoring_biobankaccelerometeranalysis;15c93e15fb5c095101cf1e62dc47adeb44cea3e8;Aiden Doherty MacBookAir <aiden.doherty@dph.ox.ac.uk>;1544143640;"update corresponding documentation and fix error in manifest file
+"
+post;activitymonitoring_biobankaccelerometeranalysis;ecbf261d0ae568156992529462505b562d10f0e2;Aiden Doherty MacBookAir <aiden.doherty@dph.ox.ac.uk>;1544144067;"update img paths
+"
+post;activitymonitoring_biobankaccelerometeranalysis;27d101d14e6588146dfb3ec273fe6e6997625cfb;Aiden Doherty <aiden.doherty@dph.ox.ac.uk>;1544177230;"update overall activity vector magnitude name to acc rather than unfriendly enmoTrunc label
+"
+post;activitymonitoring_biobankaccelerometeranalysis;89c48564e3ecad57bb2b6b24d414f4af5a9cc543;Aiden Doherty <aiden.doherty@dph.ox.ac.uk>;1544177761;"be explicit that we only support OSX and Linux
+"
+post;activitymonitoring_biobankaccelerometeranalysis;e648c44ea53aa7ccaff24efc762ca8c198a12621;Aiden Doherty <aiden.doherty@dph.ox.ac.uk>;1544177799;"be explicit that we only support OSX and Linux
+"
+post;activitymonitoring_biobankaccelerometeranalysis;e95ce2ddac7db499e306c98484524a2c34c13de3;Aiden Doherty <aiden.doherty@dph.ox.ac.uk>;1544181174;"to create plots on servers, as well as desktops, use different matplotlib backend graphics framework
+"
+post;activitymonitoring_biobankaccelerometeranalysis;dcc21e1d6f7ccd85999f33d7d7459a70ec2b91e5;Aiden Doherty <aiden.doherty@dph.ox.ac.uk>;1544436970;"update ref to published Nature Comms article
+"
+pre;alpscore_alpscore;819e6704f5d4db78f18dcb5e80d86dc89575cd6a;iskakoff <sir.iskakoff@gmail.com>;1694790315;"additional fixes for recent macos llvm
+"
+pre;alpscore_alpscore;65a7c95a86e7c6e4b9be49ab7d0899e01f924e24;iskakoff <sir.iskakoff@gmail.com>;1694791704;"actualize pauli build scripts
+"
+pre;alpscore_alpscore;d84f064a8a38ab5a43058f31aee451c084f13e78;iskakoff <sir.iskakoff@gmail.com>;1694792404;"actualize pauli build scripts
+"
+pre;alpscore_alpscore;3285a21781677c1332ad3531ebb66aaddcafa5b4;iskakoff <sir.iskakoff@gmail.com>;1694794716;"actualize pauli build scripts
+"
+pre;alpscore_alpscore;c361efee6ee34719cceb2720f6b207ecbd583afc;iskakoff <sir.iskakoff@gmail.com>;1694794899;"actualize pauli build scripts
+"
+pre;alpscore_alpscore;a8c1a49eec358e2b3382a1e71c1e39d5f5642fa2;iskakoff <sir.iskakoff@gmail.com>;1694802464;"preprocessor macro for uncaught_exceptions
+"
+pre;alpscore_alpscore;2eba05fe7033febe7bbf12b8d226d54adacd1a2e;iskakoff <sir.iskakoff@gmail.com>;1694803565;"add c++20 option
+"
+pre;alpscore_alpscore;344cf69a2354ffdd204d173ba895349a5d8daf5d;Sergei Iskakov <sir.iskakoff@gmail.com>;1694803830;"Merge pull request #646 from ALPSCore/uncaught_exceptions
+
+Uncaught exceptions"
+pre;alpscore_alpscore;d5303870183cfebbb3456fa44248bbc302af5a49;Sergei Iskakov <sir.iskakoff@gmail.com>;1694807138;"Merge pull request #645 from ALPSCore/issue_644
+
+Issue 644"
+pre;alpscore_alpscore;bf614ae180478a799a508570452cad60c2fd7cb4;Alexander Gaenko <galexv@users.noreply.github.com>;1694884152;"Merge 94a690b93ecc611069a5dacc60d4bbacf5f3904d into d5303870183cfebbb3456fa44248bbc302af5a49
+"
+post;alpscore_alpscore;34f9494771dd7a133cc9374267eb7a0e6859eb19;iskakoff <sir.iskakoff@gmail.com>;1740433840;"fix issues with preinstalled GTest (avoid looking for systemwide installed GTest). Add GithubActions CI config.
+"
+post;alpscore_alpscore;d8bd3b7fec29007c3a31e85360c87c9c985b0871;iskakoff <sir.iskakoff@gmail.com>;1740434049;"Add eigen dependency
+"
+post;alpscore_alpscore;fbf4e8f2dd369df835651b73b0c9122eba38bac2;iskakoff <sir.iskakoff@gmail.com>;1742403804;"fix build with preinstalled gtest, add header for integer types
+"
+post;alpscore_alpscore;fccd5403b08c4e5c450229714d28be5ca4a07229;Sergei Iskakov <439799+iskakoff@users.noreply.github.com>;1742404256;Update README.md
+post;alpscore_alpscore;155e4327a78c1fa9442a179868994c8715582720;Synge Todo <wistaria@phys.s.u-tokyo.ac.jp>;1744765755;"support for cmake version 4.0
+"
+post;alpscore_alpscore;e93be3495659d892196a1e4e72a06e759322ba20;Emanuel Gull <egull@users.noreply.github.com>;1744981496;"Merge pull request #650 from wistaria/cmake-4.0
+
+support for cmake version 4.0"
+post;alpscore_alpscore;401fdd505f0f425cf10f3e899bdca3c958381851;Emanuel Gull <egull@users.noreply.github.com>;1757859564;"Replace GPL with permissive license terms
+
+Changed license to MIT to mirror changes inside of ALPS"
+post;alpscore_alpscore;b2e21ce65b323196f04490c362694f0c30f8cdde;Michael Cho <michael@michaelcho.dev>;1759607347;"Support for Eigen3 5.0.0
+"
+post;alpscore_alpscore;b7e3cdaaaf4002906c551037e2c63ad59e724e53;Emanuel Gull <egull@umich.edu>;1759669677;"upgrading gtest version and deprecating old cmake versions to suppress warnings. Also switching boost to the BoostConfig.cmake file
+"
+post;alpscore_alpscore;142da6df62a7b02f5f6a7fb7bf7ea6f8f7e6acd2;Emanuel Gull <egull@users.noreply.github.com>;1759669951;"Update CI workflow to exclude macos-14
+
+Commented out the macos-14 configuration in the matrix."
+pre;bluescarni_mppp;4eab53d8758d35982ee2d40bf163bff2c0372274;Francesco Biscani <bluescarni@gmail.com>;1666358551;"Merge pull request #296 from bluescarni/pr/real_iter
+
+API additions"
+pre;bluescarni_mppp;c812a5e5ecb1db3c925b399630179c84dce032e1;CircleCI <bluescarni@gmail.com>;1666359229;"Update Sphinx documentation, commit 4eab53d8758d35982ee2d40bf163bff2c0372274 [skip ci].
+"
+pre;bluescarni_mppp;5e0da301e7140936a222b4acee3a0fb88bae3ab6;Francesco Biscani <bluescarni@gmail.com>;1666365998;"mp++ 0.27.
+"
+pre;bluescarni_mppp;5b1bb096499f7d5f8ed9b9ba02e31d26a2c3c96b;CircleCI <bluescarni@gmail.com>;1666366709;"Update Sphinx documentation, commit 5e0da301e7140936a222b4acee3a0fb88bae3ab6 [skip ci].
+"
+pre;bluescarni_mppp;8db365a0dcf6345b953b97fae511d788eff0a465;Francesco Biscani <bluescarni@gmail.com>;1667120381;"Bump to 0.28 for devel.
+"
+pre;bluescarni_mppp;7cca35c2de5b377895bd90bd3df23ef4592d4d28;Francesco Biscani <bluescarni@gmail.com>;1667125123;"Add utilities to compute the epsilon from a real or from a precision.
+"
+pre;bluescarni_mppp;c59afa1d2cf34ea4660e3dcd5009ae84612f4e27;Francesco Biscani <bluescarni@gmail.com>;1667130088;"Change function name for consistency.
+"
+pre;bluescarni_mppp;5fa56c8ce7f63cab90e24912a62ffd3dc989b14b;Andrew Corrigan <andrew.corrigan@gmail.com>;1668650618;"MPPP_MAYBE_UNUSED
+
+resolves https://github.com/bluescarni/mppp/issues/299
+"
+pre;bluescarni_mppp;58bc098ed902ef7076d0063c17d42eb1cb51b4a4;Francesco Biscani <bluescarni@gmail.com>;1668674937;"Merge pull request #300 from andrewcorrigan/master
+
+MPPP_MAYBE_UNUSED"
+pre;bluescarni_mppp;809a0b71fbf7693f80199d3a4706e33849bad0c7;CircleCI <bluescarni@gmail.com>;1668675539;"Update Sphinx documentation, commit 58bc098ed902ef7076d0063c17d42eb1cb51b4a4 [skip ci].
+"
+post;bluescarni_mppp;e9713f654335872c01682078d6768fc7bbe3cb3e;Francesco Biscani <bluescarni@gmail.com>;1700734690;"Initial cleanup bits.
+"
+post;bluescarni_mppp;aa1a68bf87afd9ef78660d039bfa3c28109e5d80;Francesco Biscani <bluescarni@gmail.com>;1700734868;"First circleci attempt.
+"
+post;bluescarni_mppp;0ccf6fe8bebac5435f0b76b5068225c8ca513e71;Francesco Biscani <bluescarni@gmail.com>;1700735224;"Ping for cI.
+"
+post;bluescarni_mppp;539aeab6ece9beb90d6a93b7403d7e0966a6eb8b;Francesco Biscani <bluescarni@gmail.com>;1700735560;"Actually use ninja.
+"
+post;bluescarni_mppp;85982c9b6d9f5ae28a4188430d828567d6515be8;Francesco Biscani <bluescarni@gmail.com>;1700736237;"More circleCI WIP.
+"
+post;bluescarni_mppp;49e4e9aba81348ba4b2fe23eb318891d6db73ecb;Francesco Biscani <bluescarni@gmail.com>;1700736632;"Try adapting the docs build too.
+"
+post;bluescarni_mppp;2911ccf1c2f011dc0471a1898a3c861dc08db6d4;Francesco Biscani <bluescarni@gmail.com>;1700736764;"Minor tweaks.
+"
+post;bluescarni_mppp;c46fa84b168ff8c61d191b6c70d82e36aa485763;Francesco Biscani <bluescarni@gmail.com>;1700737055;"First OSX build attempt.
+"
+post;bluescarni_mppp;f3e9fa58784cceb427648b986441f171976bacd6;Francesco Biscani <bluescarni@gmail.com>;1700737136;"Fix mpir link.
+"
+post;bluescarni_mppp;2f59a2295ef27a8a6bc946d0e21cdf7d7fcc9c20;Francesco Biscani <bluescarni@gmail.com>;1700737220;"Fix missing myst-nb.
+"
+pre;chembl_fpsim2;9b584d7b707087a3d648dcadc0e99b341b259c1d;Eloy Felix <efelix@ebi.ac.uk>;1600362025;"update README
+"
+pre;chembl_fpsim2;7f6a3612b233d1b91f099a39a1f361a347e11981;Eloy Felix <efelix@ebi.ac.uk>;1600362058;"update README
+"
+pre;chembl_fpsim2;8359f86331869631936e3a7b25e884bbbc19a236;Eloy Felix <efelix@ebi.ac.uk>;1600362442;"32k batch size
+"
+pre;chembl_fpsim2;c493921bacfbcd0bc17b31d9a75eeee105118f0a;Eloy Felix <efelix@ebi.ac.uk>;1600363273;"remove redudant import
+"
+pre;chembl_fpsim2;3db46383d3c1b890690f0821ab92a44fb2e23311;Eloy Félix <eloyfelix@gmail.com>;1600364853;"Split SimilaritySearch into TanimotoSearch and TverskySearch extensions
+
+* Removed unused variables
+
+* Use of pointer arithmetics...
+
+* Refactor FPSim2 engine to fit with the new extensions
+
+* Env variable in setup.py that allow -march=native for some auto-vetorization in clang10/11"
+pre;chembl_fpsim2;6fcd3b9f3a2522a7eccf6c9abcf056425584ab8a;Eloy Felix <efelix@ebi.ac.uk>;1600370485;"fix last commit introduced issue in substructure multicore search, tests added
+"
+pre;chembl_fpsim2;11f618efa03a5afbcbaa34cf97518086c0ac551a;Eloy Felix <eloyfelix@gmail.com>;1600449318;"make tqdm show again in multiple core symmetric searches, update docs
+"
+pre;chembl_fpsim2;af6782e1f829884e6d15181069add9729ff96e91;Eloy Felix <eloyfelix@gmail.com>;1600597900;"build_fp helper function
+"
+pre;chembl_fpsim2;3fe864107f406dceba0a7a378f2d25c2d2dad256;Eloy Felix <eloyfelix@gmail.com>;1600645633;"fix result sorting in new one core on disk search
+"
+pre;chembl_fpsim2;3b5f574b8e0c8ca634fe4c4c68c41c9106234652;Eloy Felix <eloyfelix@gmail.com>;1600646687;"fix result sorting in new one core on disk search
+"
+post;chembl_fpsim2;ffbcb1ed7059d43569ec05ede9bf34ac57bdb4c7;Eloy Felix <eloyfelix@gmail.com>;1631275298;"fix #71
+"
+post;chembl_fpsim2;8d381847ddb2c3d2606a2f8cecc9dcdd10c3d4ee;Eloy Félix <eloyfelix@gmail.com>;1631276289;"fix #71 (#72)
+
+"
+post;chembl_fpsim2;1b19bd8211fef5f01d7dbade269ed140bb7058f3;Eloy Felix <eloyfelix@gmail.com>;1649954238;"fix compile Python3.10/Windows issue
+"
+post;chembl_fpsim2;14c4493c07302ef1d726b59150eb7b49b58d68a2;Eloy Félix <eloyfelix@gmail.com>;1649955114;"fix compile Python3.10/Windows issue (#74)
+
+"
+post;chembl_fpsim2;016100abd5e7e8300ff48df4c9a98ba9c66345fb;Eloy Felix <eloyfelix@gmail.com>;1669049323;"mysql
+"
+post;chembl_fpsim2;a86bf217567072e5882b8307e16121577144425d;Eloy Felix <eloyfelix@gmail.com>;1669154251;"update windows ci image
+"
+post;chembl_fpsim2;591a7e1855c7605c217391d29ab332fdcdb28944;Eloy Félix <eloyfelix@gmail.com>;1669154706;"update windows ci image (#78)
+
+"
+post;chembl_fpsim2;607b40c6ae9814f8b2512b3c73f6a534c1038ff5;Eloy Felix <eloyfelix@gmail.com>;1669192180;"update
+"
+post;chembl_fpsim2;12eefce7efd6f96bf6558da9184708e7e1a94ab7;Eloy Felix <eloyfelix@gmail.com>;1669221705;"sqla
+"
+post;chembl_fpsim2;23b2a603838a206fb3751f6bfe430aa0863700f4;Eloy Felix <eloyfelix@gmail.com>;1669222729;"update setup.py
+"
+pre;cnes_cars;ed744fe3b610eee77dd90f0f4183ba29e8113990;Emmanuel Dubois <emmanuel.dubois@cnes.fr>;1641376866;"fix: clean typos, add some TODO, last rereading
+"
+pre;cnes_cars;73ba35718765cd030ce7e2808f761c8981efdd59;Emmanuel DUBOIS <emmanuel.dubois@cnes.fr>;1641390471;"Merge branch '355-dask-refacto-improves0.4.1' into 'master'
+
+Resolve ""DASK : premier refactoring et améliorations""
+
+See merge request cars/cars!354"
+pre;cnes_cars;0a03182aff8cfcabc33641e8348e51e1b9f8fcd7;Emmanuel DUBOIS <emmanuel.dubois@cnes.fr>;1642428262;fix: upgrade pandora dependency to all 0.2.* versions
+pre;cnes_cars;1b9c90bc041b1c1d22b0955c8f35cc7ac3a51d2a;David Youssefi <david.youssefi@cnes.fr>;1642502337;"Merge branch '371-update-pandora-1-2' into 'master'
+
+Resolve ""update pandora 1.2""
+
+Closes #371
+
+See merge request cars/cars!365"
+pre;cnes_cars;0339a2dd417a909f2aab27f7609039c6a2328400;Emmanuel DUBOIS <emmanuel.dubois@cnes.fr>;1643215358;fix: add cache show in pytest
+pre;cnes_cars;6df27a2de012003bc13af17f554fbf47d72bf3ee;Emmanuel DUBOIS <emmanuel.dubois@cnes.fr>;1643215951;fix: cache show before pytest tests
+pre;cnes_cars;873478195c3691a69ab38af79047f2a0c79ab786;Crest Didier <didier.crest@cnes.fr>;1643217950;"Add monitoring time and slowest time test execution
+
+https://docs.pytest.org/en/6.2.x/logging.html
+https://docs.pytest.org/en/latest/how-to/usage.html#profiling-test-execution-duration "
+pre;cnes_cars;2f0fa5c3bd581d921c41a241bc86c4e298745ade;Emmanuel DUBOIS <emmanuel.dubois@cnes.fr>;1643741590;"Merge branch '373-fix-ci-debug-pytest-cache' into 'master'
+
+Resolve ""fix CI debug pytest cache""
+
+Closes #373
+
+See merge request cars/cars!367"
+pre;cnes_cars;f5d4c2e74ce9a84e38d150eb38660a01a89fb01d;Emmanuel Dubois <emmanuel.dubois@cnes.fr>;1644950832;"fix: black update with package evolution
+"
+pre;cnes_cars;0e119c4df107d43b5cd534cb7fd41d764b060feb;Emmanuel DUBOIS <emmanuel.dubois@cnes.fr>;1644958622;"Merge branch '376-qualite-de-code-bug-ci' into 'master'
+
+Resolve ""qualité de code bug CI""
+
+Closes #376
+
+See merge request cars/cars!369"
+post;cnes_cars;4dc78f39380ddfd132e490fc7c3dd4436cf06c06;Emmanuel Dubois <emmanuel.dubois@cnes.fr>;1649080090;"fix: pylint errors (wrong variable usage and change loop on dict)
+"
+post;cnes_cars;ca6e19efa4de3d6f9bab7de78323654fe4335235;Emmanuel DUBOIS <emmanuel.dubois@cnes.fr>;1649089981;"Merge branch '379-bug-clean-pylint-errors' into 'master'
+
+Resolve ""Bug Clean pylint errors""
+
+Closes #379
+
+See merge request cars/cars!375"
+post;cnes_cars;d574c99216fa96992a30dbe5d9bbf28b5ada14de;Emmanuel Dubois <emmanuel.dubois@cnes.fr>;1649090579;"fix: update dockerfile ubuntu 20.04 dependencies
+"
+post;cnes_cars;f8bf382f88320ea07efbe8ef38ba0c35016b3cd1;Emmanuel DUBOIS <emmanuel.dubois@cnes.fr>;1649230720;"Merge branch '380-bug-dockerfile-ci' into 'master'
+
+Resolve ""Bug Dockerfile CI""
+
+Closes #380
+
+See merge request cars/cars!377"
+post;cnes_cars;6a475befd2598d549d1a8a9d336332f2956d4d3e;Quentin Fardet <quentin.fardet@csgroup.eu>;1649946061;"fix: temporary bugfix by forcing click version to avoid dask.distributed pbs cluster trouble
+"
+post;cnes_cars;e55e6bcab64de26bfe043bb3ea9590e50eeda433;Quentin Fardet <quentin.fardet@csgroup.eu>;1649948065;"doc: update Changelog
+"
+post;cnes_cars;89a2f686bf80bf243b12af4b48f39a32d3cb53fa;Emmanuel DUBOIS <emmanuel.dubois@cnes.fr>;1649952379;"Merge branch '383-temporary_bugfix_for_pbscluster_trouble' into 'master'
+
+Temporary bugfix by forcing click version to avoid dask.distributed pbs cluster trouble
+
+See merge request cars/cars!379"
+post;cnes_cars;51101f762fa4b4a1922bfcd35d53130e7208028c;Quentin Fardet <quentin.fardet@csgroup.eu>;1650036096;"fix: temporary fix: force click version to avoid dask.distributed pbs cluster trouble with click install steps before Fiona one
+"
+post;cnes_cars;1ac813a2bc298209fd27101f8eeeb7aa734c6ff2;Quentin FARDET <quentin.fardet@csgroup.eu>;1650037523;"Merge branch '383-temporary_bugfix_for_pbscluster_trouble_bis' into 'master'
+
+Force click version and make this install step a priority
+
+See merge request cars/cars!380"
+post;cnes_cars;a1e70ceddd90a6251eac2caf7145b1bcca1255e8;Emmanuel Dubois <emmanuel.dubois@cnes.fr>;1650308018;"fix: update Dockerfile dependencies (git)
+"
+pre;mivion_swisseph;18d7db87092766a5bd17b7b396401a91722f463c;mivion <onopin.m.v@gmail.com>;1340767132;"+ Google analytics
++ README: added link to swisseph.tk
+"
+pre;mivion_swisseph;50d86a453630e59fc7aaee979efd40c35b97bcad;mivion <onopin.m.v@gmail.com>;1340767186;"+ README: fix link
+"
+pre;mivion_swisseph;9827b36beca87207859ac4891419f1dab4fba536;mivion <onopin.m.v@gmail.com>;1340828877;"+ Various fixes
+"
+pre;mivion_swisseph;4049949e583c65266538c58ea4b3e571257f58b5;mivion <onopin.m.v@gmail.com>;1340837368;"+ Link to ephemeris.tk
+"
+pre;mivion_swisseph;6aa8b613745b97c945ddf1681c91dad59710a69c;mivion <onopin.m.v@gmail.com>;1341872009;"+ Removed NASA copyrights
++ Config fixes
+"
+pre;mivion_swisseph;a90ad24c31547eb30324503989ad4b3b485f74be;mivion <onopin.m.v@gmail.com>;1341872140;"+ Version 0.4.1
+"
+pre;mivion_swisseph;aca3628960c9c7753452d4fcc40ad28d44b3dbf4;mivion <onopin.m.v@gmail.com>;1341872310;"+ Config changes
+"
+pre;mivion_swisseph;e3060c553243e828315731bf2f4a2946876f7e73;mivion <onopin.m.v@gmail.com>;1341963790;"+ Some fixes
+"
+pre;mivion_swisseph;342e09d38e89a90e097d525ff1297dbf65bc5581;mivion <onopin.m.v@gmail.com>;1341965327;"+ version 0.4.2
+"
+pre;mivion_swisseph;4c12adc0f11c0bd6580bb4bf2411cc6bff0507b3;mivion <onopin.m.v@gmail.com>;1341965355;"+ version 0.4.2
+"
+post;mivion_swisseph;45ce37f1311b05d69ba2b7fc9ab584acf64c7628;mivion <onopin.m.v@gmail.com>;1378690546;Links updated
+post;mivion_swisseph;d211ce055ca108df1d3e697bf588ad63f958d93d;mivion <onopin.m.v@gmail.com>;1378690733;Fixed links
+post;mivion_swisseph;d9ccb4f213fdc2e9dc4956a4a1749750758f74ca;mivion <onopin.m.v@gmail.com>;1387674146;"Update README.md
+
+New license model."
+post;mivion_swisseph;51ec95db8285eb773e1b7c814dd56b017e25c7d7;mivion <onopin.m.v@gmail.com>;1387674275;Update README.md
+post;mivion_swisseph;d3f96adf4609643ec25fdec0841038c90a5a749d;mivion <mivion@MacBook-Pro-mivion.local>;1406087338;"Transit example
+"
+post;mivion_swisseph;288fc714293089fe0063dedf49c5e15049cce5e3;mivion <onopin.m.v@gmail.com>;1421820968;Update README.md
+post;mivion_swisseph;3007ed9eee509a08d109e8349f154319e9a7da19;mivion <onopin.m.v@gmail.com>;1424665624;"Added .gitignore
+"
+post;mivion_swisseph;59dea6b035eacdada22edb61360c0465e1a16a9b;mivion <onopin.m.v@gmail.com>;1424665723;"Added changelog and license
+"
+post;mivion_swisseph;71dd27b8a2ad7f008fb0c93f0e4a61777db9e167;mivion <onopin.m.v@gmail.com>;1424665754;"Removed old dependencies
+"
+post;mivion_swisseph;23dcdb731ce24eea118536406ffdfb00dc966534;mivion <onopin.m.v@gmail.com>;1424665835;"Swisseph update to version 2.0.0
+"
+pre;nasa-pds_harvest;bd986e7e4993955ba26b1d83c28ade5715c293bb;mcayanan <mcayanan@45d5965c-88be-4637-9056-144873d6cd01>;1470320013;"PDS-464: Forgot to update the copyright year
+"
+pre;nasa-pds_harvest;e2f119f5e6758f5b3833db275f82e82902e42692;mcayanan <mcayanan@45d5965c-88be-4637-9056-144873d6cd01>;1470760038;"PDS-288 - Harvest: Updated documentation on how to configure the policy file for unlabeled file registrations.
+"
+pre;nasa-pds_harvest;a50bd83d29a07d956245f497c473744f209df6e8;shardman <shardman@45d5965c-88be-4637-9056-144873d6cd01>;1475450607;"Updated POMs and change logs for the Build 7a release and some other stuff too.
+
+"
+pre;nasa-pds_harvest;3cd490576ad675e93116c967fb8c7ae4b8a5bdd3;shardman <shardman@45d5965c-88be-4637-9056-144873d6cd01>;1475621963;"Versions bumped for Build 7b development.
+
+"
+pre;nasa-pds_harvest;c57c02993f431011ec98e0e91353ab8601b4fa4e;mcayanan <mcayanan@45d5965c-88be-4637-9056-144873d6cd01>;1478025357;"Resolved PDS-471 - Harvest: The tool needs to support collections with multiple collection product versions.
+"
+pre;nasa-pds_harvest;771e02ebbdc2ceb031aaddd18c64065cbab1c711;mcayanan <mcayanan@45d5965c-88be-4637-9056-144873d6cd01>;1478185296;"Resolved PDS-473 - Improve resolution of relative file path references in a Checksum Manifest file.
+"
+pre;nasa-pds_harvest;c0d8203fd14b41e0682c381bcff0c8e6d5d036ca;shardman <shardman@45d5965c-88be-4637-9056-144873d6cd01>;1488244389;"Added reference types for airborne, facility, observatory and telescope products.
+
+"
+pre;nasa-pds_harvest;dbc10fbf952a2f711ad750843719299b7df740e4;shardman <shardman@45d5965c-88be-4637-9056-144873d6cd01>;1488309081;"Added support for Airborne and Telescope context products. They are still excluded from search results though and not yet supported in Data Set View.
+
+"
+pre;nasa-pds_harvest;8520b1fe4e47fcd56fcf4ba0340563ec82af0bdb;shardman <shardman@45d5965c-88be-4637-9056-144873d6cd01>;1490915086;"Bumped the versions and updated the change logs for the Build 7b release.
+
+"
+pre;nasa-pds_harvest;cc38337657d9540b9d352207e2aa973bd8e09dd9;shardman <shardman@45d5965c-88be-4637-9056-144873d6cd01>;1491320082;"Bumped the component versions and updated the change logs for Build 8a development.
+
+"
+post;nasa-pds_harvest;934dbca1e25a280f049fa480f8a098672e5642a2;shardman <shardman@45d5965c-88be-4637-9056-144873d6cd01>;1506708585;"Updated the component versions and change logs for the Build 8a release.
+
+"
+post;nasa-pds_harvest;0bb0a5137f1f4cf05382bdf431a18dfa06bdb9c6;shardman <shardman@45d5965c-88be-4637-9056-144873d6cd01>;1507158375;"Bumped the component versions and updated the change logs for Build 8b development.
+
+"
+post;nasa-pds_harvest;43a9587e95f2c2a3f648c2cd1d2d352b121d61b8;shardman <shardman@45d5965c-88be-4637-9056-144873d6cd01>;1522343247;"Bumped the component versions for Build 8b.
+
+"
+post;nasa-pds_harvest;f1efbd60ec676c4cb9841f18d55aa18294ae96a5;shardman <shardman@45d5965c-88be-4637-9056-144873d6cd01>;1522692992;"Added an Ancillary file type to the global policy and added a example policy file for the latest version of the example bundle.
+
+"
+post;nasa-pds_harvest;165c3e003770a6532971164a17bc2d453b3b8067;shardman <shardman@45d5965c-88be-4637-9056-144873d6cd01>;1523728021;"Bumped versions for selected components for Build 9a development.
+
+"
+post;nasa-pds_harvest;6c21f45410a42328dd215121d7ab3d6743f3f3c4;mcayanan <mcayanan@45d5965c-88be-4637-9056-144873d6cd01>;1537212377;"Resolved SW-33 - Harvest: Updated to extract doi metadata from the Citation_Information area.
+Resolved SW-34 - Harvest: Updated policy configuration example to extract Context_Area metadata from Product_Browse products.
+Resolved SW-35 - Harvest: Updated reference type mapping to support additional facility relationships.
+Resolved SW-36 - Harvest: Updated reference type mapping to support additional browse product relationships.
+"
+post;nasa-pds_harvest;42bc3f913238e03a5bf9a0ebe1ee619e067deae8;mcayanan <mcayanan@45d5965c-88be-4637-9056-144873d6cd01>;1537212411;"Update information model version number in the policy config for PDS3 registration.
+"
+post;nasa-pds_harvest;5643b0a808b7a200537715778569e138206b6eb4;mcayanan <mcayanan@45d5965c-88be-4637-9056-144873d6cd01>;1537341078;"Resolved SW-38 - Harvest: Updated to support Source_Product_* classes
+"
+post;nasa-pds_harvest;9c030625dd0ca5fcb1d40f8ac833cf617eaad438;mcayanan <mcayanan@45d5965c-88be-4637-9056-144873d6cd01>;1537884675;"Bumping versions in preparation for the build
+"
+post;nasa-pds_harvest;ea6f53566008aaaf33087a890809052075b9a3f7;mcayanan <mcayanan@45d5965c-88be-4637-9056-144873d6cd01>;1537895545;"Updated install documents to reference Java 1.8
+"
+pre;niklastr_promise;3df8d87274e3b58ea725d73b0e51346ab14c6635;NiklasTR <niklastimon@gmail.com>;1637316699;"moved html dir
+"
+pre;niklastr_promise;dc224f19984597afd32476f0c1ef0025223a2b3d;Niklas Rindtorff <NiklasTR@users.noreply.github.com>;1637324822;"adding missing data for nextcloud repo
+"
+pre;niklastr_promise;00854aa331ad545afbadc1877774df5b4ebb58f5;Niklas Rindtorff <NiklasTR@users.noreply.github.com>;1637325712;"added links to files
+"
+pre;niklastr_promise;1997f157e405903d538c590d4f676379757d9778;Niklas Rindtorff <NiklasTR@users.noreply.github.com>;1637329014;"removed a lot of files
+"
+pre;niklastr_promise;d68ffe053a8d3a04a62caf7bda24f50b47203872;Niklas Rindtorff <NiklasTR@users.noreply.github.com>;1637337176;"clean up repo further and create dedicated figure directory
+"
+pre;niklastr_promise;a5a4e8fd47aa6e9fc1acb6dd5e70539d4e4075fb;Niklas Rindtorff <NiklasTR@users.noreply.github.com>;1637339009;"rearrange more figures
+"
+pre;niklastr_promise;f1f1cd8f2db5dbab37e8dc36a73dbe32c582d8c8;Niklas Rindtorff <NiklasTR@users.noreply.github.com>;1637344230;"count treatment
+"
+pre;niklastr_promise;8a49537de297a131a7809750733941f51527ba9f;Niklas Rindtorff <NiklasTR@users.noreply.github.com>;1637569617;"uploading required data
+"
+pre;niklastr_promise;376ff6506dcf41127066b621a9e6bc292ebff195;Niklas Rindtorff <NiklasTR@users.noreply.github.com>;1640011529;"running segmentation
+"
+pre;niklastr_promise;9fcc24cd3a35c6a07e3aa303ed1d677dfc0ab1f8;Niklas Rindtorff <NiklasTR@users.noreply.github.com>;1642078713;"changed segmentation routine
+"
+post;niklastr_promise;cd675465458b0da8f5af039e62883f0a5297a115;Niklas Rindtorff <NiklasTR@users.noreply.github.com>;1745238753;Update README.md
+pre;sinzlab_nndichromacy;2baf950e0ac7224571ab27792683f143e657d7d8;KonstantinWilleke <konstantin.willeke@gmail.com>;1664354541;"slurm Nature MEI video.
+"
+pre;sinzlab_nndichromacy;f65e1aa5131b91cf2544b376b2d27c7f213257c1;KonstantinWilleke <konstantin.willeke@gmail.com>;1664355189;"Update ReadMe.
+"
+pre;sinzlab_nndichromacy;0e825166a54a959f355d81d55c5ec5399c6ec46f;KonstantinWilleke <konstantin.willeke@gmail.com>;1664355278;"extend readme.
+"
+pre;sinzlab_nndichromacy;e8fb1b44ac9ad576f25b991fa9dc6f9791b8742e;Konstantin Willeke <konstantin.willeke@gmail.com>;1664368153;"Merge pull request #35 from KonstantinWilleke/master
+
+Update ReadMe."
+pre;sinzlab_nndichromacy;c4d57206437d73112953dfb76a4606244b1ad50b;KonstantinWilleke <konstantin.willeke@gmail.com>;1664368281;"fix typo in readme.
+"
+pre;sinzlab_nndichromacy;6f69b0a9e52c20b8d1a28c475f8788fb32ae4ed1;Konstantin Willeke <konstantin.willeke@gmail.com>;1664368308;"Merge pull request #36 from KonstantinWilleke/master
+
+fix typo in readme."
+pre;sinzlab_nndichromacy;2186839a61ef9755f1f35e9a4e2055957fa03e84;KonstantinWilleke <konstantin.willeke@gmail.com>;1664379214;"add correct link for gin.g-node data
+"
+pre;sinzlab_nndichromacy;8aed042d40265fefb305a4d94b3b66366cbba10c;Konstantin Willeke <konstantin.willeke@gmail.com>;1664379252;"Merge pull request #37 from KonstantinWilleke/master
+
+add correct link for gin.g-node data"
+pre;sinzlab_nndichromacy;c3cc40787f1bf008ca31729fbdc04e52d739e47a;KonstantinWilleke <konstantin.willeke@gmail.com>;1664379304;"fix typo.
+"
+pre;sinzlab_nndichromacy;ea2ec1dd7b5b62cd87b710129290dc6445a2bc0e;Konstantin Willeke <konstantin.willeke@gmail.com>;1664379374;"Merge pull request #38 from KonstantinWilleke/master
+
+fix typo."
+post;sinzlab_nndichromacy;2d20a3b4ccd120a734616b2e481e19d4bef34392;KonstantinWilleke <konstantin.willeke@gmail.com>;1706709955;"add model weights for data driven color model.
+"
+post;sinzlab_nndichromacy;c2f4402f2cc8b50e708e3cdab9ea60fd3e437bce;KonstantinWilleke <konstantin.willeke@gmail.com>;1706710055;"add v1 surround model weights.
+"
+post;sinzlab_nndichromacy;41050499d4c5887bac2d31c1bb609c7e6a9748b2;KonstantinWilleke <konstantin.willeke@gmail.com>;1706710694;"remove .tar from gitignore.
+"
+post;sinzlab_nndichromacy;7c3fe6e1853d8b8ca091fbed230d5e0d5aa235f9;KonstantinWilleke <konstantin.willeke@gmail.com>;1706710764;"add TrainCorr table.
+"
+post;sinzlab_nndichromacy;94c6bbc11a06c1f2b76ef32327517257af056101;KonstantinWilleke <konstantin.willeke@gmail.com>;1706710805;"add option to remove early stopping for trainer.
+"
+post;sinzlab_nndichromacy;c44cbda74918e2671402991611f648818f147a85;KonstantinWilleke <konstantin.willeke@gmail.com>;1706710842;"add torch no grad for model evaluation in utility.measures.
+"
+post;sinzlab_nndichromacy;0dac4531956620889f6451c624061fbbb65daac8;KonstantinWilleke <konstantin.willeke@gmail.com>;1706710956;"add posencoding and data_info to models.utility.
+"
+post;sinzlab_nndichromacy;7c47653c4071591a867d4a8bf103075df32158bf;KonstantinWilleke <konstantin.willeke@gmail.com>;1706710996;"Add a new trialID shifter.
+"
+post;sinzlab_nndichromacy;2dc946789c3181c9915fd358f12106c7f51cb336;KonstantinWilleke <konstantin.willeke@gmail.com>;1706711207;"add new encoder to use the LearnedShifter
+"
+post;sinzlab_nndichromacy;6c533c442bdd5d72fdc1f618e791f14d5b9c074d;KonstantinWilleke <konstantin.willeke@gmail.com>;1706711249;"add new model function for learned shifter.
+"
+pre;ubarsc_python-fmask;1d4ae8195da5ad27a3a5b6f5b3efc97bdf1f0e1c;Ben Lewis <benjimin@users.noreply.github.com>;1587522651;"Clarify precedence (cloud > shadow > snow > water)
+
+Expressing this as unconvolutedly as possible. (Should also perform slightly faster, and use slightly less memory.)"
+pre;ubarsc_python-fmask;b73dded9e1341b82381ab53b7001a5958490acc8;Neil Flood <neilflood@fastmail.fm>;1587716636;"Merge pull request #37 from benjimin/patch-2
+
+Clarify precedence (cloud > shadow > snow > water)"
+pre;ubarsc_python-fmask;ba2f2a93784fa48a0c1a67d5e0bbccb1a391a4f4;floriandeboissieu <fdeboiss@gmail.com>;1593708393;"extend to python scripting support
+
+Current version is made for command  line only, i.e. command line arguments are taken from sys.argv.
+I propose to add an argv argument to mainRoutine so that it can be called directly from a python session.
+I have done it with sentinel2Stacked, but same could be done with others mainRoutines."
+pre;ubarsc_python-fmask;16ea284c387c08d80f8e0c9cbc6ed394f6d3ed19;floriandeboissieu <fdeboiss@gmail.com>;1593761329;"fix previous python script patch 
+
+forgot to transmit argv to parse_args..."
+pre;ubarsc_python-fmask;aeec360a56e7d5ee308481da6d8398911234c2fb;floriandeboissieu <fdeboiss@gmail.com>;1594033405;add docstring for argv
+pre;ubarsc_python-fmask;32a7483c99af99982cb2e9e578339ee7eb63cde3;floriandeboissieu <fdeboiss@gmail.com>;1594282891;fix docstring in sentinel2Stacked
+pre;ubarsc_python-fmask;be79c1999faf1c4d8e6f0ecf807bd1187356c41d;Neil Flood <neilflood@fastmail.fm>;1594283085;"Merge pull request #41 from floriandeboissieu/patch-1
+
+python script support"
+pre;ubarsc_python-fmask;925bc5c988a4d7d82785c6aef3a3018a6e39d971;Neil Flood <neilflood@fastmail.fm>;1598934133;"Updated CreateDistribution.txt for use with git & github
+"
+pre;ubarsc_python-fmask;6d30b2e6c2aab8cf93705e6d5190dc0dd4502b3c;Sam Gillingham <gillingham.sam@gmail.com>;1598934666;"Update to version 0.5.5
+"
+pre;ubarsc_python-fmask;063f24cd109883f2b168091f82b0317c8518bc33;Sam Gillingham <gillingham.sam@gmail.com>;1598935210;"Update release notes
+"
+post;ubarsc_python-fmask;d75e94ae588dab07faa768a540a4d0f0b2bb9ecc;Neil Flood <neilflood@fastmail.fm>;1634272656;"Cope with ESA's new radiometric offsets in the L1C imagery
+"
+post;ubarsc_python-fmask;a49a07125e64a81f992c6c054e0f9c8989ee36e5;Neil Flood <neilflood@fastmail.fm>;1634279773;"Fix typo in name of fmask.config.setTOARefOffsetDict(). Cosmentic only, but stoopid if left that way.
+"
+post;ubarsc_python-fmask;5395199aec90923d53d442891bf9be778de15649;Neil Flood <neilflood@fastmail.fm>;1634590986;"Merge pull request #48 from neilflood/esa-offsets
+
+ESA radiometric offsets"
+post;ubarsc_python-fmask;2d2b1d142e9f4e0cb856ffd71fe5b8c5ac1806eb;Neil Flood <neilflood@fastmail.fm>;1634591683;"Update version to 0.5.6
+"
+post;ubarsc_python-fmask;1b4aed8901a497f49bfd563cdc9bb80ba15a01ab;Stefan Józefowicz <stefan.jozefowicz@gmail.com>;1638817166;"Ignore INSPIRE.xml when searching for metadata file
+"
+post;ubarsc_python-fmask;dcd6adb1110cc7a8f25a7343b25ddd231883235f;Neil Flood <neilflood@fastmail.fm>;1638822232;"Merge pull request #49 from StfnJ/master
+
+Ignore INSPIRE.xml when searching for metadata file in old-format zips"
+post;ubarsc_python-fmask;5a3e78548c49f76818c55bf9e478e29ebd8edc78;Sam Gillingham <gillingham.sam@gmail.com>;1638839412;"use setuptools with readthedocs as distutils is now deprecated
+"
+post;ubarsc_python-fmask;d255d0f6567f8f256ef048ea9fe9cdee47ddc1ad;Sam Gillingham <gillingham.sam@gmail.com>;1638850264;"remove unnecessary import and use numpy on readthedocs also
+"
+post;ubarsc_python-fmask;a2d4a9a93e8981eac339d6c40304d903d29ec67d;Neil Flood <neilflood@fastmail.fm>;1643075558;"Merge pull request #50 from gillins/distutils
+
+use numpy.distutils with readthedocs as distutils is now deprecated"
+post;ubarsc_python-fmask;c1593965363e1fa908fa8af1e66cd55ac1c8bee0;Sam Gillingham <gillingham.sam@gmail.com>;1643076770;"blank line to trigger readthedocs rebuild
+"
