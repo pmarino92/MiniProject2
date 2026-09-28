@@ -1,0 +1,11 @@
+project;number of commits;number of authors;max time;min time;number of stars;number of forks;last commit date;LongestGapStart;LongestGapEnd;LongestGapLength;NumCommitsAfterLastGap;NumberOfGapsInTimeline;ActivityPattern
+activitymonitoring_biobankaccelerometeranalysis;1284;42;2025-10-31 10:05:05;2014-08-07 18:54:34;251;71;2025-11-10;2018-02;2018-11;10;868;4;irregular
+alpscore_alpscore;5025;75;2026-05-10 07:42:18;2003-05-06 17:17:45;114;46;2026-09-25;2023-10;2025-01;16;42;9;declining
+bluescarni_mppp;3877;13;2024-12-10 11:20:09;2015-12-14 01:10:28;321;29;2024-12-10;2022-12;2023-10;11;111;3;irregular
+chembl_fpsim2;934;13;2025-09-06 09:35:56;2018-10-22 00:17:20;184;24;2026-02-26;2020-10;2021-08;11;299;7;declining
+cnes_cars;3748;100;2026-04-15 09:52:35;2020-07-08 12:50:21;398;48;2026-09-18;2022-03;2022-03;1;3065;0;rising
+mivion_swisseph;318;27;2025-05-13 07:06:30;2012-05-17 08:54:55;239;87;2025-05-13;2012-08;2013-08;13;205;13;declining
+nasa-pds_harvest;1283;32;2026-03-30 15:07:29;2012-01-30 19:03:59;6;3;2026-09-21;2017-05;2017-08;4;1055;6;rising
+niklastr_promise;940;13;2025-04-21 12:32:33;2017-08-21 20:19:19;0;0;2025-04-21;2022-02;2025-03;38;1;4;declining
+sinzlab_nndichromacy;467;13;2024-09-03 22:24:47;2020-05-16 21:55:16;8;7;2024-06-10;2022-10;2023-12;15;17;2;U-Shaped
+ubarsc_python-fmask;372;16;2025-03-26 04:37:47;2015-09-15 06:34:54;79;24;2026-02-24;2020-10;2021-09;12;100;9;steady
